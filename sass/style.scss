@@ -27,10 +27,10 @@ $nav_dropdown_color:#def;
 $mobilebg:#3b3b3b;
 $master_margin_width:2em;
 
-$papawidth: 60em;	//Fullscreen
-$mamabreak: 61em; 	
-$mamawidth: 50em;	//tablets landscape
-$teenbreak: 51em;	
+$papawidth: 73em;	//Fullscreen
+$mamabreak: 960px; 	
+$mamawidth: 61em;	//tablets landscape
+$teenbreak: 800px;	
 $teenwidth: 90%;	//tablets portrait all the way down to the smallest phones.
 
 @font-face {
@@ -44,6 +44,7 @@ $teenwidth: 90%;	//tablets portrait all the way down to the smallest phones.
 @import "base";
 @import "common";
 @import "wordpress";
+@import "weather";
 @import "rslides";
 @import "uniform";
 @import "jquery.fancybox-1.3.4";
@@ -66,14 +67,14 @@ body {
 	background-attachment: fixed;
 	@media only screen and (max-width: $teenbreak) {	
 		background:lighten( rgba(73,151,187,1), 20% ) ;
+		font: 1em/1.5em Verdana,Arial,Helvetica,sans-serif;
 	}
 	height: 100%;
 	margin: 0;
-	font: 1em/1.6em Verdana,Arial,Helvetica,sans-serif;
+	font: .8em/1.5em Verdana,Arial,Helvetica,sans-serif;
 	}
 .topbar {
 	background:$lightcolor; 
-	margin-top: 50px; 
 	padding: 20px 0;
 	}
 .topbar .col,
@@ -86,9 +87,9 @@ body {
 .container .rowholder.bodybackgroundcolour {
 	background:#fff; 
 	margin: 0 0 0 0.5em;
-	width: 16.5em;
+	width: 19.5em;
 	@media only screen and (min-width: $teenbreak) and (max-width: $mamabreak) {
-		width:13.8em;
+		width:16.8em;
 		margin: 0 0 0 0.425em;
 		}
 	}
@@ -100,7 +101,7 @@ body {
 	height: 130px;
 	position: absolute;
 	z-index: -1;
-	top: 80px;
+	top: 100px;
 	left: 50%;
 	margin-left: -$papawidth/2;
 	@media only screen and (min-width: $teenbreak) and (max-width: $mamabreak) {
@@ -187,7 +188,7 @@ form.searchbmps{
 
 
 .logo{
-	margin: 0 0 2em 0;
+	margin: 0 0 1em 0;
 	padding: 0;
 	text-align: center;
 		@media only screen and (min-width:0) and (max-width: $teenbreak) {
@@ -211,12 +212,14 @@ form.searchbmps{
 	}
 h1.sitetitle{
 	font-size:2em;
-	padding: 0 0 0.5em 0;
 	margin: 0;
 	color:#fff;
 	@media only screen and (min-width: $teenbreak) and (max-width: $mamabreak) {
 		font-size:1.4em;
 		}
+	@media only screen and (min-width:0) and (max-width: $teenbreak) {
+		padding: 0 0 0.5em 0;
+	}
 	a {
 		color:#fff;
 		text-decoration: none;
@@ -226,9 +229,9 @@ h1.pagetitle,h2,h3{
 	background:$darkcolor;
 	color:#fff;
 	font-family:$googlefont1;
-	font-size:1.4em;
-	padding: 0.2em 0.8em;
-	margin: 2.20em 0 1em 0;
+	font-size:1.3em;
+	padding: 0.4em 0.5em;
+	margin: 2.5em 0 1.1em 0;
 	border: 1px solid #1c5378;
 	border-width:0 0 3px 0;
 	@media only screen and (min-width: $teenbreak) and (max-width: $mamabreak) {
@@ -284,7 +287,7 @@ h1.pagetitle,h2,h3{
 		}
 	}
 .contentarea {
-	padding:0 1.1em;
+	padding:0 .6em;
 	}
 .subcol ul{ 
 	background:$lightcolor;
@@ -293,6 +296,9 @@ h1.pagetitle,h2,h3{
 	padding:0;
 	margin-top:-1.4em;
 	}
+.subcol ul.nobg{ 
+	background:none;
+	}
 .subcol ul li{
 	border:1px solid rgba(255,255,255,.5);
 	border-width:0 0 1px 0;
@@ -300,17 +306,30 @@ h1.pagetitle,h2,h3{
 	}
 .subcol ul li a{
 	color:#fff;
-	padding: 0.4em 1.2em;
+	padding: 0.4em .7em;
 	@media only screen and (min-width: 0) and (max-width: $teenbreak) {
-		padding:1em 1.2em;
+		padding:1em .7em;
 	}
 	display:block;
 	text-decoration:none;
 	}
+.subcol ul.nobg li a span{
+	color:$body_link_color;
+	}
+.subcol ul.nobg li a{
+	color:rgba(75,75,75,1);
+	}
+.subcol ul.nobg li:first-child a{padding:1.7em .7em 0 .7em}
 .subcol ul li a:hover,
 .subcol ul li.current-menu-item a{
 	background:lighten( $lightcolor, 10% );
 	}
+.subcol ul.nobg li a:hover,
+.subcol ul.nobg li.current-menu-item a{
+	background:none;
+	color:$body_link_color;
+	}
+
 .contentarea .faq-catname{
 
 }
@@ -393,8 +412,8 @@ h1.pagetitle,h2,h3{
 .tags{
 	text-align: justify;
 	a{
-		padding:.4em;
-		@media only screen and (min-width: 0) and (max-width: $teenbreak) {
+		padding:.4em 1.2em;
+		@media only screen and (min-width: 0) and (max-width: $mamabreak) {
 			padding:1em .4em;
 		}
 		display: inline-block;
@@ -426,3 +445,9 @@ h1.pagetitle,h2,h3{
 	background: $body_link_color;
 	color: #fff; 
 }
+.video iframe{
+	width:100%;
+	padding: 0.2em 0em;
+	margin: 2.70em 0 1em 0; 
+}
+.video h4 {color:#efb212}
