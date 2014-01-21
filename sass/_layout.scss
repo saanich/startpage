@@ -205,10 +205,12 @@ _________ _______  _______  _
     $margin_width:5%;
     
     $onecol_width:$fullcontainer_width;
-    .container                     { width: $fullcontainer_width; margin: 0 auto; padding: 0; overflow: hidden; }
+    .container                      { width: $fullcontainer_width; margin: 0 auto; padding: 0; overflow: hidden; }
     .container .col                 { float: left; margin: 0 0 $margin_width $margin_width;}
     .container .nomargin            { margin:0;}
     .container .rowholder           { margin:0;}
+    .container .rowholder .col,
+    .container .rowholder           { margin:0 !important; width:100% !important;}
 
       .onecol .col                                ,
     .twocol .col                                  ,

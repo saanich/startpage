@@ -24,5 +24,6 @@ Weather Widget
 	font-size:2.5em;
 	font-weight:normal;
 	span, img{vertical-align:top;}
+  span.tempnum {line-height:.9em;}
 	span.deg {font-size:.6em;}
 }

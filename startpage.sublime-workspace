@@ -23,46 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sass/style.scss",
-			"settings":
-			{
-				"buffer_size": 9543,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 8961,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/icheck.min.js",
-			"settings":
-			{
-				"buffer_size": 4500,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/_layout.scss",
-			"settings":
-			{
-				"buffer_size": 10771,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/_uniform.scss",
-			"settings":
-			{
-				"buffer_size": 2275,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -108,8 +68,15 @@
 	},
 	"file_history":
 	[
+		"/I/startpage/sass/_nav.scss",
+		"/I/startpage/sass/_oldie.scss",
 		"/I/startpage/sass/_weather.scss",
+		"/I/startpage/index.html",
+		"/I/startpage/sass/_uniform.scss",
+		"/I/startpage/sass/style.scss",
 		"/I/startpage/sass/_layout.scss",
+		"/I/startpage/js/icheck.min.js",
+		"/C/Users/friesenj/AppData/Local/Temp/Temp1_font-awesome-4.0.3.zip/font-awesome-4.0.3/scss/font-awesome.scss",
 		"/I/startpage/js/weather.js",
 		"/C/Users/friesenj/Desktop/monkeecreate-jquery.simpleWeather-ac8f7e6/index.html",
 		"/I/startpage/style.css",
@@ -218,6 +185,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"deg",
+			"wea",
+			"nobg",
+			"\">",
+			"checkbox",
 			"archives@saanich.ca/",
 			"192.168",
 			".pdf",
@@ -291,162 +263,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sass/style.scss",
-					"settings":
-					{
-						"buffer_size": 9543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9438,
-								9438
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 8740.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 8961,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8291,
-								8291
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3712.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/icheck.min.js",
-					"settings":
-					{
-						"buffer_size": 4500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4500,
-								4500
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 1138.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sass/_layout.scss",
-					"settings":
-					{
-						"buffer_size": 10771,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4323,
-								4323
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3900.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sass/_uniform.scss",
-					"settings":
-					{
-						"buffer_size": 2275,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2275,
-								2275
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2408.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -483,7 +301,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 30.0
+		"height": 81.0
 	},
 	"output.sftp":
 	{
@@ -499,6 +317,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"wea",
+				"sass/_weather.scss"
+			],
+			[
+				"nav",
+				"sass/_nav.scss"
+			],
+			[
+				"oldi",
+				"sass/_oldie.scss"
+			],
 			[
 				"un",
 				"sass/_uniform.scss"
