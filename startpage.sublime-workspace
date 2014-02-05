@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"tec",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"fon",
 				"font-family"
 			],
@@ -23,13 +31,49 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 12558,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "windows.html",
+			"settings":
+			{
+				"buffer_size": 8315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8782,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"sas",
+				"SassBeautify"
+			],
+			[
+				"SassBeautify",
+				"SassBeautify"
+			],
 			[
 				"Package Control: ins",
 				"Package Control: Install Package"
@@ -37,6 +81,22 @@
 			[
 				"Package Control: in",
 				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: display:none"
 			],
 			[
 				"Package Control: ",
@@ -51,7 +111,7 @@
 				"Package Control: Disable Package"
 			]
 		],
-		"width": 512.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -68,13 +128,32 @@
 	},
 	"file_history":
 	[
-		"/I/startpage/sass/_nav.scss",
-		"/I/startpage/sass/_oldie.scss",
-		"/I/startpage/sass/_weather.scss",
-		"/I/startpage/index.html",
+		"/I/startpage/documents.html",
+		"/I/startpage/sass/_wordpress.scss",
 		"/I/startpage/sass/_uniform.scss",
+		"/I/startpage/findstaff.html",
+		"/I/startpage/helpdesk.html",
+		"/I/startpage/icons.html",
+		"/I/startpage/index.html",
+		"/I/startpage/installing.html",
+		"/I/startpage/monitors.html",
+		"/I/startpage/windows.html",
+		"/I/startpage/browsers.html",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/SassBeautify.sublime-settings",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/I/startpage/js/fancysettings.js",
+		"/I/startpage/sass/_oldie.scss",
+		"/I/startpage/js/fancybox/jquery.fancybox-1.3.4.css",
+		"/C/Users/friesenj/Desktop/jquery.fancybox-1.3.4.pack.js",
+		"/I/startpage/js/bgfade.js",
 		"/I/startpage/sass/style.scss",
 		"/I/startpage/sass/_layout.scss",
+		"/I/startpage/template.html",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/I/startpage/sass/_nav.scss",
+		"/I/startpage/sass/_weather.scss",
 		"/I/startpage/js/icheck.min.js",
 		"/C/Users/friesenj/AppData/Local/Temp/Temp1_font-awesome-4.0.3.zip/font-awesome-4.0.3/scss/font-awesome.scss",
 		"/I/startpage/js/weather.js",
@@ -137,7 +216,6 @@
 		"/C/work/saanich/sass/style.scss",
 		"/C/work/saanich/htdocs/images/1990-028-018.jpg",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
@@ -175,6 +253,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"I:\\startpage",
 			"w:\\htdocs",
 			"w:\\maps",
 			"w:\\htdocs"
@@ -182,9 +261,32 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"\">\n",
+			"<link  rel=\"stylesheet\" href=\"///fonts.googleapis.com/css?family=Muli:300\" type=\"text/css\">",
+			"example_group",
+			"spantwo",
+			"priority",
+			"full",
+			"3",
+			"2",
+			"priority",
+			"regarding",
+			"Department",
+			"- ",
+			"Services",
+			"Division",
+			"Section",
+			"option",
+			"h2",
+			"pagetitle",
+			"indent",
+			"googlefont1",
+			"main",
+			"3em",
+			"	}",
 			"deg",
 			"wea",
 			"nobg",
@@ -252,6 +354,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<link href=\"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css\" rel=\"stylesheet\">\n	<link  rel=\"stylesheet\" href=\"///fonts.googleapis.com/css?family=Muli:300\" type=\"text/css\">",
 			"\""
 		],
 		"reverse": false,
@@ -263,14 +366,106 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 12558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1111,
+								1111
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "windows.html",
+					"settings":
+					{
+						"buffer_size": 8315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								8315
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 8782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8764,
+								8764
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2793.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -318,6 +513,30 @@
 		"selected_items":
 		[
 			[
+				"wor",
+				"sass/_wordpress.scss"
+			],
+			[
+				"ie",
+				"sass/_oldie.scss"
+			],
+			[
+				"find",
+				"findstaff.html"
+			],
+			[
+				"lay",
+				"sass/_layout.scss"
+			],
+			[
+				"uni",
+				"sass/_uniform.scss"
+			],
+			[
+				"la",
+				"sass/_layout.scss"
+			],
+			[
 				"wea",
 				"sass/_weather.scss"
 			],
@@ -334,16 +553,8 @@
 				"sass/_uniform.scss"
 			],
 			[
-				"la",
-				"sass/_layout.scss"
-			],
-			[
 				"we",
 				"sass/_weather.scss"
-			],
-			[
-				"lay",
-				"sass/_layout.scss"
 			],
 			[
 				"student",
@@ -363,7 +574,7 @@
 		[
 			[
 				"",
-				"/C/work/bmp/bmp.sublime-project"
+				"/W/saanichwebroot.sublime-project"
 			]
 		],
 		"width": 767.0

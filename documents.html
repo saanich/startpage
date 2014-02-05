@@ -39,6 +39,8 @@
 	<!-- CSS
 	================================================== -->
 	<link rel="stylesheet" href="style.css" type='text/css'>
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css" type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="///fonts.googleapis.com/css?family=Muli:300" type="text/css">
 
@@ -51,6 +53,10 @@
 	<script type="text/javascript" src="///ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/jquery.simpleWeather-2.3.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancysettings.js"></script>
 	<!--[if lt IE 9]>
 		<script src="///html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -82,7 +88,7 @@
 	<div class="topbar container fourcol">
 		<div class="col spanthree">
 			<h1 class="sitetitle">District of Saanich Help</h1>
-			<h2 class="sitetitle"><span>Welcome to your new computer!</span></h2>
+			<h2 class="sitetitle"><span>Finding a document</span></h2>
 		</div>
 	</div>
 	<div class="navarea container fourcol">
@@ -92,7 +98,6 @@
 	<div class="container headdecor">&nbsp;</div>
 	<div class="main container fourcol">
 		<div class="col subcol">
-
 			<div class="logo">
 				<a href="//elink/startpage/index.html">
 					<span>The District of Saanich</span>
@@ -105,7 +110,7 @@
 					<li><a href="helpdesk.html"><i class="fa fa-user-md"></i> Contacting Helpdesk</a></li>
 					<li><a href="windows.html"><i class="fa fa-windows"></i> Windows 7</a></li>
 					<li><a href="icons.html"><i class="fa fa-th"></i> Finding my old icons</a></li>
-					<li><a href="documents.html"><i class="fa fa-file-text-o"></i> Finding a document</a></li>
+					<li class="current-menu-item"><a href="documents.html"><i class="fa fa-file-text-o"></i> Finding a document</a></li>
 					<li><a href="installing.html"><i class="fa fa-download"></i> installing software</a></li>
 					<li><a href="monitors.html"><i class="fa fa-desktop"></i> Dual Monitors</a></li>
 					<li><a href="browsers.html"><i class="fa fa-cloud"></i> Web browsers</a></li>
@@ -123,70 +128,25 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col spantwo maincol">
+		<div class="col spanthree maincol">
 			<h3 class="pagetitle"><span>What is this page?</span></h3>
 			<div class="contentarea">
-				<p>Lorem ipsum Proident irure deserunt sint velit est tempor anim et anim veniam enim reprehenderit est anim amet.</p>
-				<p>Ex laborum sed laboris esse irure dolore irure dolore elit exercitation.</p>
-			</div>
-			<div class="col spantwo rowholder">
-				<div class="col">
-					<h3 class="pagetitle"><span>Why  a computer?</span></h3>
-					<div class="contentarea">
-						<p>Lorem ipsum Ullamco aliqua deserunt eiusmod officia aliquip deserunt ut occaecat Excepteur eu velit minim.</p>
+				<div class="wp-caption alignright">
+						<a rel="fancygroup" title="Get my old icons back!" href="images/iconpage/icons1.png">
+							<img alt="Get my old icons back!" class="size-thumbnail" src="images/iconpage/icons1thumb.png">
+							<p class="wp-caption-text">Get my old icons back!</p>
+					</a>
 					</div>
-				</div>
-				<div class="col">
-					<h3 class="pagetitle"><span>What is this machine?</span></h3>
-					<div class="contentarea">
-						<p>Lorem ipsum Commodo amet ut sit ex voluptate mollit Ut aute aute.</p>
+					<div class="wp-caption alignright">
+						<a rel="fancygroup" title="Get my old icons back!" href="images/iconpage/icons2.png">
+							<img alt="Get my old icons back!" class="size-thumbnail" src="images/iconpage/icons2thumb.png">
+							<p class="wp-caption-text">Get my old icons back!</p>
+						</a>
 					</div>
-				</div>
-			</div>
-			<div class="col spantwo rowholder">
-				<h3 class="pagetitle"><span>Help and tutorials</span></h3>
-				<div class="contentarea">
-					<div class="video  spantwo rowholder">
-						<div class="col">
-							<span class="flex-video">
-								<iframe src="//www.youtube.com/embed/kCTeWiPsYro?rel=0&amp;autohide=1&amp;showinfo=0" frameborder="0"></iframe>
-							</span>
-						</div>
-						<div class="col">
-							<h4>How is office 2013 different?</h4>
-							<p>Lorem ipsum Fugiat occaecat commodo Ut irure in Ut est nisi laboris exercitation occaecat proident.</p>
-							<p><a href="//www.youtube.com/watch?v=kCTeWiPsYro" class="more-link">...See full video</a></p>
-						</div>
-					</div>
-					<hr />
-					<div class="video  spantwo rowholder">
-						<div class="col">
-							<span class="flex-video">
-								<iframe src="//www.youtube.com/embed/11nFGohTNPw?rel=0&amp;autohide=1&amp;showinfo=0" frameborder="0"></iframe>
-							</span>
-						</div>
-						<div class="col">
-							<h4>Introduction to Windows 7 for Beginners</h4>
-							<p>Lorem ipsum Fugiat occaecat commodo Ut irure in Ut est nisi laboris exercitation occaecat proident.</p>
-							<p><a href="//www.youtube.com/watch?v=11nFGohTNPw" class="more-link">...See full video</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-
+			<p>Lorem ipsum Proident irure deserunt sint velit est tempor anim et anim veniam enim reprehenderit est anim amet.</p>
+			<p>Ex laborum sed laboris esse irure dolore irure dolore elit exercitation.</p>
 		</div>
-		<div class="col subcol">
-			<h3>Quick Links</h3>
-			<div class="textwidget">
-				<ul class="nobg">
-					<li><a href="mailto:helpdesk@saanich.ca">Contact Helpdesk <span>5440</span></a></li>
-					<li><a href="//elink">Open E-link</a></li>
-					<li><a href="http://saanich.ca">Saanich Website</a></li>
-				</ul>
-			</div>
-			<h3>Contact Helpdesk</h3>
-			<p>If you are having difficulties with your PC or a program, and you need more help, please <a href="helpdesk.html">contact Helpdesk</a>. </p>
-		</div>
+	</div>
 	</div>
 	<div class="footer main">
 		<div class="container">
