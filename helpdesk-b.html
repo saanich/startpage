@@ -138,90 +138,26 @@
 				<p>Lorem occaecat ipsum <a href="mailto:helpdesk@saanich.ca">helpdesk@saanich.ca</a>Ut est nisi 5440.</p>
 			</div>
 			<div class="col spanthree rowholder">
-				<h3 class="pagetitle"><span>Use this form to ask for help from helpdesk</span></h3>
+				<h3 class="pagetitle"><span>Use this form to send in a ticket</span></h3>
 				<div class="contentarea">
 					<form>
-						<h4>This ticket is ...</h4>
-						<div class="tags">
-							<input type="radio" id="priority-toggle-1" name="priority" value="Emergency">
-							<label for="priority-toggle-1" class="full emergency">an emergency</label>
-							<hr />
-							<input type="radio" id="priority-toggle-2" name="priority" value="High">
-							<label for="priority-toggle-2" class="full high">a high Priority</label>
-							<hr />
-							<input type="radio" id="priority-toggle-3" name="priority" value="Standard">
-							<label for="priority-toggle-3" class="full standard">a standard priority</label>
-							<hr />
-							<input type="radio" id="priority-toggle-4" name="priority" value="Low">
-							<label for="priority-toggle-4" class="full low">a low priority</label>
-						</div>
-						<h4>I need ...</h4>
-						<div class="tags grid">
-							<input type="radio" id="type-toggle-1" name="type" value="XXX">
-							<label for="type-toggle-1">a fix for something that is broken</label>
-							<hr />
-							<input type="radio" id="type-toggle-2" name="type" value="XXX">
-							<label for="type-toggle-2">help with using my computer</label>
-							<hr />
-							<input type="radio" id="type-toggle-3" name="type" value="XXX">
-							<label for="type-toggle-3">to update a web page</label>
-							<hr />
-							<input type="radio" id="type-toggle-4" name="type" value="XXX">
-							<label for="type-toggle-4">software installation</label>
-							<hr />
-							<input type="radio" id="type-toggle-5" name="type" value="XXX">
-							<label for="type-toggle-5">something else</label>
-						</div>
-						<h4>Regarding...</h4>
-						<div class="tags grid">
-							<input type="radio" id="regarding-toggle-1" name="regarding" value="E-link">
-							<label for="regarding-toggle-1">E-link</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-1" name="regarding" value="Email">
-							<label for="regarding-toggle-1">Email</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-2" name="regarding" value="ePersonality">
-							<label for="regarding-toggle-2">ePersonality</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-3" name="regarding" value="JDEdwards">
-							<label for="regarding-toggle-3">JDEdwards</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-4" name="regarding" value="Class">
-							<label for="regarding-toggle-4">Class</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-5" name="regarding" value="Browser">
-							<label for="regarding-toggle-5">My Browser</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-6" name="regarding" value="PC">
-							<label for="regarding-toggle-6">My PC</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-7" name="regarding" value="Printer">
-							<label for="regarding-toggle-7">A Printer</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-71" name="regarding" value="PC">
-							<label for="regarding-toggle-71">A Computer</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-72" name="regarding" value="phone">
-							<label for="regarding-toggle-72">A phone or cell phone</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-8" name="regarding" value="Training">
-							<label for="regarding-toggle-8">Training</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-9" name="regarding" value="Installation">
-							<label for="regarding-toggle-9" class="">Software Installation</label>
-							<hr />
-							<input type="radio" id="regarding-toggle-10" name="regarding" value="Other">
-							<label for="regarding-toggle-10" class="">Other</label>
-						</div>
-						<h4>From...</h4>
+						<p>This ticket is
+							<select>
+							<option for="priority-toggle-1" id="priority-toggle-1" name="priority" value="Emergency"class="full emergency">an emergency.</option>
+							<option for="priority-toggle-2" id="priority-toggle-2" name="priority" value="High" class="full high">a high Priority.</option>
+							<option for="priority-toggle-3" id="priority-toggle-3" name="priority" value="Standard" class="full standard">a standard priority.</option>
+							<option for="priority-toggle-4" id="priority-toggle-4" name="priority" value="Low" class="full low">a low priority.</option>
+						</select>
+						
+						From 
 						<label for="your-nam">Name</label>
 						<input type="text" id="your-name" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" />
 						<label for="your-email">Email or extension</label>
 						<input type="text" id="your-email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" />
 						<label for="your-message">Please describe the issue</label>
+						
 						<textarea id="your-message" name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
-						<h4>Please ...</h4>
-						<div class="tags">
+						Please
 							<input type="radio" id="contact-toggle-1" name="contact" value="Emergency">
 							<label for="contact-toggle-1" class="full ">contact me as soon as you can</label>
 							<hr />
@@ -230,7 +166,7 @@
 							<hr />
 							<input type="radio" id="contact-toggle-3" name="contact" value="Standard">
 							<label for="contact-toggle-3" class="full ">assign this to a technician and have them contact me if they need to, or when it is done.</label>
-						</div>
+						</p>
 						<input type="submit" value="Send ticket" />
 					</form>
 				</div>

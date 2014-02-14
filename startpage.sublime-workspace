@@ -4,11 +4,11 @@
 		"selected_items":
 		[
 			[
-				"tec",
-				"text-decoration"
+				"text",
+				"text-align"
 			],
 			[
-				"text",
+				"tec",
 				"text-decoration"
 			],
 			[
@@ -35,23 +35,23 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 12558,
+				"buffer_size": 12865,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "windows.html",
+			"file": "helpdesk-a.html",
 			"settings":
 			{
-				"buffer_size": 8315,
+				"buffer_size": 12183,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "helpdesk.html",
 			"settings":
 			{
-				"buffer_size": 8782,
+				"buffer_size": 12203,
 				"line_ending": "Unix"
 			}
 		}
@@ -128,16 +128,19 @@
 	},
 	"file_history":
 	[
+		"/C/work/2013  analytics/pages2013.html",
+		"/I/startpage/helpdesk-b.html",
+		"/I/startpage/helpdesk-a.html",
+		"/I/startpage/helpdesk.html",
+		"/I/startpage/index.html",
+		"/I/startpage/windows.html",
 		"/I/startpage/documents.html",
 		"/I/startpage/sass/_wordpress.scss",
 		"/I/startpage/sass/_uniform.scss",
 		"/I/startpage/findstaff.html",
-		"/I/startpage/helpdesk.html",
 		"/I/startpage/icons.html",
-		"/I/startpage/index.html",
 		"/I/startpage/installing.html",
 		"/I/startpage/monitors.html",
-		"/I/startpage/windows.html",
 		"/I/startpage/browsers.html",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/SassBeautify.sublime-settings",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SassBeautify/SassBeautify.sublime-settings",
@@ -264,6 +267,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"label",
 			"\">\n",
 			"<link  rel=\"stylesheet\" href=\"///fonts.googleapis.com/css?family=Muli:300\" type=\"text/css\">",
 			"example_group",
@@ -374,15 +378,15 @@
 					"file": "sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 12558,
+						"buffer_size": 12865,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1111,
-								1111
+								10167,
+								10170
 							]
 						],
 						"settings":
@@ -394,17 +398,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 513.0,
+						"translation.y": 9342.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "windows.html",
+					"file": "helpdesk-a.html",
 					"settings":
 					{
-						"buffer_size": 8315,
+						"buffer_size": 12183,
 						"regions":
 						{
 						},
@@ -412,17 +416,16 @@
 						[
 							[
 								0,
-								8315
+								0
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
+							"incomplete_sync": true,
 							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -432,18 +435,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "index.html",
+					"file": "helpdesk.html",
 					"settings":
 					{
-						"buffer_size": 8782,
+						"buffer_size": 12203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8764,
-								8764
+								8567,
+								8567
 							]
 						],
 						"settings":
@@ -455,7 +458,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2793.0,
+						"translation.y": 2821.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -574,7 +577,7 @@
 		[
 			[
 				"",
-				"/W/saanichwebroot.sublime-project"
+				"/C/work/bmp/bmp.sublime-project"
 			]
 		],
 		"width": 767.0
