@@ -2,7 +2,10 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
 	<!-- Basic Page Needs
 	================================================== -->
@@ -35,41 +38,28 @@
 	<meta name="msapplication-square310x310logo" content="images/mstile-310x310.png" />
 	<!-- CSS
 	================================================== -->
-	<link rel="stylesheet" href="style.css"  type='text/css'>
+	<link rel="stylesheet" href="style.css" type='text/css'>
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css"  type='text/css'>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<link  rel="stylesheet" href="///fonts.googleapis.com/css?family=Muli:300" type="text/css">
+	<link rel="stylesheet" href="///fonts.googleapis.com/css?family=Muli:300" type="text/css">
 
 	<!-- Mobile Specific Metas
 	================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-	
+
 	<!-- JQuery, analytics and WP scripts
-	================================================== -->   
+	================================================== -->
 	<script type="text/javascript" src="///ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/jquery.simpleWeather-2.3.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancysettings.js"></script>
+	<script type="text/javascript" src="js/weathersettings.js"></script>
 	<!--[if lt IE 9]>
 		<script src="///html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		  $.simpleWeather({
-			zipcode: '',
-			woeid: '23405825',
-			location: '',
-			unit: 'c',
-			success: function(weather) {
-			  html = '<p class="temperature"><span class="tempnum">'+weather.temp+'</span><span class="deg">&deg; </span>';
-			  html += '<img alt="'+weather.currently+' weather icon" width="32" src="images/weather/'+weather.code+'.png">';
-			  html += '<p class="currently">'+weather.currently+'</p>';
-			  $("#weather").html(html);
-			},
-			error: function(error) {
-			  $("#weather").html('<p>'+error+'</p>');
-			}
-		  });
-		});
-	</script>
 </head>
 
 <body>
@@ -89,21 +79,23 @@
 	<div class="container headdecor">&nbsp;</div>
 	<div class="main container fourcol">
 		<div class="col subcol">
-			
-			<div class="logo"><a href="//elink/startpage/index.html" ><span>The District of Saanich</span></a></div>
+
+			<div class="logo">
+				<a href="//elink/startpage/index.html">
+					<span>The District of Saanich</span>
+				</a>
+			</div>
 			<h3>I want help with...</h3>
 			<div class="textwidget">
 				<ul>
-					<li><a href="findstaff.html"><i class="fa fa-users"></i> Finding Staff</a></li>
-					<li><a href="helpdesk.html"><i class="fa fa-user-md"></i> Contacting Helpdesk</a></li>
+					<li><a href="findstaff.html"><i class="fa fa-users"></i> Finding staff</a></li>
+					<li><a href="helpdesk.html"><i class="fa fa-user-md"></i> Contacting IT helpdesk</a></li>
 					<li><a href="windows.html"><i class="fa fa-windows"></i> Windows 7</a></li>
-					<li><a href="icons.html"><i class="fa fa-th"></i> Finding my old icons</a></li>
-					<li><a href="documents.html"><i class="fa fa-file-text-o"></i> Finding a document</a></li>
-					<li class="current-menu-item"><a href="installing.html"><i class="fa fa-download"></i> installing software</a></li>
-					<li><a href="monitors.html"><i class="fa fa-desktop"></i> Dual Monitors</a></li>
-					<li><a href="browsers.html"><i class="fa fa-cloud"></i> Web browsers</a></li>
+					<li><a href="windows.html"><i class="fa fa-windows"></i> Office 2013</a></li>
+					<li class="current-menu-item"><a href="installing.html"><i class="fa fa-download"></i> Installing and using new software</a></li>
+					<li><a href="monitors.html"><i class="fa fa-desktop"></i> Using my new PC and dual monitors</a></li>
 				</ul>
-			</div>    
+			</div>
 			<h3>IT Helpdesk</h3>
 			<div class="textwidget thumblist">
 				<ul class="nobg">
@@ -112,114 +104,40 @@
 				</ul>
 				<ul class="nobg">
 					<li><img src="/intranet/EmployeeDirectory/EmployeePics/IMG_2720.jpg" width="40" /></li>
-					<li><a href="mailto:Alex.Cheung@saanich.ca">Alex Cheung</a>Helpdesk Technician</li>	
+					<li><a href="mailto:Alex.Cheung@saanich.ca">Alex Cheung</a>IT Helpdesk Technician</li>	
 				</ul>
-			</div>    
+			</div>
 		</div>
 		<div class="col spantwo maincol">
-			<h3 class="pagetitle"><span>What is this page?</span></h3>
-			<div class="contentarea">
-				<p>Lorem ipsum Proident irure deserunt sint velit est tempor anim et anim veniam enim reprehenderit est anim amet.</p>
-				<p>Ex laborum sed laboris esse irure dolore irure dolore elit exercitation.</p>
-			</div>
-			<div class="col spantwo rowholder">
-				<div class="col">
-					<h3 class="pagetitle"><span>Why  a computer?</span></h3>
-					<div class="contentarea">
-						<p>Lorem ipsum Ullamco aliqua deserunt eiusmod officia aliquip deserunt ut occaecat Excepteur eu velit minim.</p>
-					</div>
-				</div>
-				<div class="col">
-					<h3 class="pagetitle"><span>What is this machine?</span></h3>
-					<div class="contentarea">
-						<p>Lorem ipsum Commodo amet ut sit ex voluptate mollit Ut aute aute.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col spantwo rowholder">
-				<h3 class="pagetitle"><span>Help and tutorials</span></h3>
-				<div class="contentarea">
-					<div class="video  spantwo rowholder">
-						<div class="col">
-							<span class="flex-video">
-								<iframe src="//www.youtube.com/embed/kCTeWiPsYro?rel=0" frameborder="0"></iframe>
-							</span>
-						</div>
-						<div class="col">
-							<h4>How is office 2013 different?</h4>
-							<p>Lorem ipsum Fugiat occaecat commodo Ut irure in Ut est nisi laboris exercitation occaecat proident.</p>
-							<p><a href="//www.youtube.com/watch?v=kCTeWiPsYro" class="more-link">...See full video</a></p>
-						</div>
-					</div>
-					<hr />
-					<div class="video  spantwo rowholder">
-						<div class="col">
-							<span class="flex-video">
-								<iframe src="//www.youtube.com/embed/11nFGohTNPw?rel=0" frameborder="0"></iframe>
-							</span>
-						</div>
-						<div class="col">
-							<h4>Introduction to Windows 7 for Beginners</h4>
-							<p>Lorem ipsum Fugiat occaecat commodo Ut irure in Ut est nisi laboris exercitation occaecat proident.</p>
-							<p><a href="//www.youtube.com/watch?v=11nFGohTNPw" class="more-link">...See full video</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
 			
+			<h3 class="pagetitle"><span>What software will I receive?</span></h3>
+			<div class="contentarea">
+				<p>IT is establishing a more manageable <a href="software.html">Saanich Supported Software List</a> which guides what software is installed. Everyone will receive computers with all of the <strong>Standard Software</strong>. If you have a license or access privilege for the <strong>Specialized Software</strong>, that will be installed as well.</p>
+				<p>IT must install software: you will no longer be able to install software on your computer. This will reduce the risk of viruses and data loss. </p>
+			</div>
+
+			<h3 class="pagetitle"><span>How do I install software?</span></h3>
+			<div class="contentarea">
+				<p>To install software <a href="helpdesk.html"> contact the <i class="fa fa-user-md"></i> IT Helpdesk</a> and set up an appointnemt. Refer to the <a href="software.html">Saanich Supported Software List</a> to see if the software you require is on the list. If the software you need is not on the list we can help you install that as well.</p>
+			</div>
+
+			<h3 class="pagetitle"><span>How do I receive training on my new software?</span></h3>
+			<div class="contentarea">
+				<p>To book training session with your departmental representatives and “super users” <a href="helpdesk.html"> contact the <i class="fa fa-user-md"></i> IT Helpdesk</a> and set up an appointnemt.</p>
+			</div>
+
 		</div>
 		<div class="col subcol">
 			<h3>Quick Links</h3>
 			<div class="textwidget">
 				<ul class="nobg">
-					<li><a href="mailto:helpdesk@saanich.ca">Contact Helpdesk <span>5440</span></a></li>
-					<li><a href="//elink">Open E-link</a></li>
-					<li><a href="http://saanich.ca">Saanich Website</a></li>
+					
+					<li><a href="software.html">Saanich Supported Software List</a></li>
 				</ul>
-			</div> 
-			<h3>Send Helpdesk a ticket</h3>
-			<form> 
-				<h4>Regarding...</h4>
-				<div class="tags">
-					<input type="radio" id="toggle-1" name="regarding" value="E-link">
-					<label for="toggle-1">E-link</label>
-					<hr />
-					<input type="radio" id="toggle-2" name="regarding" value="ePersonality">
-					<label for="toggle-2">ePersonality</label>
-					<hr />
-					<input type="radio" id="toggle-3" name="regarding" value="JDEdwards">
-					<label for="toggle-3">JDEdwards</label>
-					<hr />
-					<input type="radio" id="toggle-4" name="regarding" value="Class">
-					<label for="toggle-4">Class</label>
-					<hr />
-					<input type="radio" id="toggle-5" name="regarding" value="Browser">
-					<label for="toggle-5">My Browser</label>
-					<hr />
-					<input type="radio" id="toggle-6" name="regarding" value="PC">
-					<label for="toggle-6">My PC</label>
-					<hr />
-					<input type="radio" id="toggle-7" name="regarding" value="Printer">
-					<label for="toggle-7">A Printer</label>
-					<hr />
-					<input type="radio" id="toggle-8" name="regarding" value="Training">
-					<label for="toggle-8">Training</label>
-					<hr />
-					<input type="radio" id="toggle-9" name="regarding" value="Installation">
-					<label for="toggle-9" class="full">Software Installation</label>
-					<hr />
-					<input type="radio" id="toggle-10" name="regarding" value="Other">
-					<label for="toggle-10" class="full">Other</label>
-	      		</div>
-	      		<h4>From...</h4>
-	      		<label for="your-nam">Name</label>
-	      		<input type="text" id="your-name" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" />
-				<label for="your-email">Email</label>
-				<input type="email" id="your-email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" />
-				<label for="your-message">Please describe the issue</label>
-				<textarea id="your-message" name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
-	      		<input type="submit" value="Send ticket"/>
-	      	</form>
+			</div>
+			<h3>Contact IT Helpdesk</h3>
+			<p>If you are having difficulties with your PC or a program, and you need more help, please <a href="helpdesk.html"> contact the <i class="fa fa-user-md"></i> IT Helpdesk</a>. </p>
+
 		</div>
 	</div>
 	<div class="footer main">
@@ -230,4 +148,5 @@
 		</div>
 	</div>
 </body>
+
 </html>

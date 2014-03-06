@@ -32,26 +32,37 @@
 	"buffers":
 	[
 		{
-			"file": "sass/style.scss",
+			"file": "/K/jboss-web.deployer/logintest.war/login.html",
 			"settings":
 			{
-				"buffer_size": 12865,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "helpdesk-a.html",
-			"settings":
-			{
-				"buffer_size": 12183,
+				"buffer_size": 1525,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "helpdesk.html",
+			"file": "/C/Users/friesenj/Desktop/23-dark-login-form/index.html",
 			"settings":
 			{
-				"buffer_size": 12203,
+				"buffer_size": 1102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block;\n}\n\nbody {\n  line-height: 1;\n}\n\nol, ul {\n  list-style: none;\n}\n\nblockquote, q {\n  quotes: none;\n}\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none;\n}\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n.about {\n  margin: 70px auto 40px;\n  padding: 8px;\n  width: 260px;\n  font: 10px/18px 'Lucida Grande', Arial, sans-serif;\n  color: #666;\n  text-align: center;\n  text-shadow: 0 1px rgba(255, 255, 255, 0.25);\n  background: #eee;\n  background: rgba(250, 250, 250, 0.8);\n  border-radius: 4px;\n  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));\n  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));\n  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));\n  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));\n  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);\n  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0 6px rgba(0, 0, 0, 0.2);\n}\n.about a {\n  color: #333;\n  text-decoration: none;\n  border-radius: 2px;\n  -webkit-transition: background 0.1s;\n  -moz-transition: background 0.1s;\n  -o-transition: background 0.1s;\n  transition: background 0.1s;\n}\n.about a:hover {\n  text-decoration: none;\n  background: #fafafa;\n  background: rgba(255, 255, 255, 0.7);\n}\n\n.about-links {\n  height: 30px;\n}\n.about-links > a {\n  float: left;\n  width: 50%;\n  line-height: 30px;\n  font-size: 12px;\n}\n\n.about-author {\n  margin-top: 5px;\n}\n.about-author > a {\n  padding: 1px 3px;\n  margin: 0 -1px;\n}\n\n/*\n * Copyright (c) 2012-2013 Thibaut Courouble\n * http://www.cssflow.com\n *\n * Licensed under the MIT License:\n * http://www.opensource.org/licenses/mit-license.php\n */\nbody, .login-submit, .login-submit:before, .login-submit:after {\n  background: #373737 url(\"../img/bg.png\") 0 0 repeat;\n}\n\nbody {\n  font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  color: #404040;\n}\n\na {\n  color: #00a1d2;\n  text-decoration: none;\n}\na:hover {\n  text-decoration: underline;\n}\n\n.login {\n  position: relative;\n  margin: 80px auto;\n  width: 400px;\n  padding-right: 32px;\n  font-weight: 300;\n  color: #a8a7a8;\n  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);\n}\n.login p {\n  margin: 0 0 10px;\n}\n\n.header {\n  position: relative;\n  margin: 20px auto;\n  width: 600px;\n  padding-right: 32px;\n  font-weight: 300;\n  color: #a8a7a8;\n  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);\n  font: 25px 'Lucida Grande', Arial, sans-serif;\n  text-align: center   \n}\n\ninput, button, label {\n  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-size: 15px;\n  font-weight: 300;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\ninput[type=text], input[type=password] {\n  padding: 0 10px;\n  width: 300px;\n  height: 40px;\n  color: #bbb;\n  text-shadow: 1px 1px 1px black;\n  background: rgba(0, 0, 0, 0.16);\n  border: 0;\n  border-radius: 5px;\n  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);\n  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);\n}\ninput[type=text]:focus, input[type=password]:focus {\n  color: white;\n  background: rgba(0, 0, 0, 0.1);\n  outline: 0;\n}\n\nlabel {\n  float: left;\n  width: 100px;\n  line-height: 40px;\n  padding-right: 10px;\n  font-weight: 100;\n  text-align: right;\n  letter-spacing: 1px;\n}\n\n.forgot-password {\n  padding-left: 100px;\n  font-size: 13px;\n  font-weight: 100;\n  letter-spacing: 1px;\n}\n\n.login-submit {\n  position: absolute;\n  top: 12px;\n  right: 0;\n  width: 48px;\n  height: 48px;\n  padding: 8px;\n  border-radius: 32px;\n  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);\n  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);\n}\n.login-submit:before, .login-submit:after {\n  content: '';\n  z-index: 1;\n  position: absolute;\n}\n.login-submit:before {\n  top: 28px;\n  left: -4px;\n  width: 4px;\n  height: 10px;\n  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.06);\n  box-shadow: inset 0 1px rgba(255, 255, 255, 0.06);\n}\n.login-submit:after {\n  top: -4px;\n  bottom: -4px;\n  right: -4px;\n  width: 36px;\n}\n\n.login-button {\n  position: relative;\n  z-index: 2;\n  width: 48px;\n  height: 48px;\n  padding: 0 0 48px;\n  /* Fix wrong positioning in Firefox 9 & older (bug 450418) */\n  text-indent: 120%;\n  white-space: nowrap;\n  overflow: hidden;\n  background: none;\n  border: 0;\n  border-radius: 24px;\n  cursor: pointer;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.1);\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.1);\n  /* Must use another pseudo element for the gradient background because Webkit */\n  /* clips the background incorrectly inside elements with a border-radius.     */\n}\n.login-button:before {\n  content: '';\n  position: absolute;\n  top: 5px;\n  bottom: 5px;\n  left: 5px;\n  right: 5px;\n  background: #00a2d3;\n  border-radius: 24px;\n  background-image: -webkit-linear-gradient(top, #00a2d3, #0d7796);\n  background-image: -moz-linear-gradient(top, #00a2d3, #0d7796);\n  background-image: -o-linear-gradient(top, #00a2d3, #0d7796);\n  background-image: linear-gradient(to bottom, #00a2d3, #0d7796);\n  -webkit-box-shadow: inset 0 0 0 1px #00a2d3, 0 0 0 5px rgba(0, 0, 0, 0.16);\n  box-shadow: inset 0 0 0 1px #00a2d3, 0 0 0 5px rgba(0, 0, 0, 0.16);\n}\n.login-button:active:before {\n  background: #0591ba;\n  background-image: -webkit-linear-gradient(top, #0591ba, #00a2d3);\n  background-image: -moz-linear-gradient(top, #0591ba, #00a2d3);\n  background-image: -o-linear-gradient(top, #0591ba, #00a2d3);\n  background-image: linear-gradient(to bottom, #0591ba, #00a2d3);\n}\n.login-button:after {\n  content: '';\n  position: absolute;\n  top: 15px;\n  left: 12px;\n  width: 25px;\n  height: 19px;\n  background: url(\"../img/arrow.png\") 0 0 no-repeat;\n}\n\n::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n\n.lt-ie9 input[type=text], .lt-ie9 input[type=password] {\n  line-height: 40px;\n  background: #282828;\n}\n.lt-ie9 .login-submit {\n  position: absolute;\n  top: 12px;\n  right: -28px;\n  padding: 4px;\n}\n.lt-ie9 .login-submit:before, .lt-ie9 .login-submit:after {\n  display: none;\n}\n.lt-ie9 .login-button {\n  line-height: 48px;\n}\n.lt-ie9 .about {\n  background: #313131;\n}",
+			"file": "/C/Users/friesenj/Desktop/23-dark-login-form/css/style.css",
+			"file_size": 7041,
+			"file_write_time": 130380173527148531,
+			"settings":
+			{
+				"buffer_size": 7040,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/K/jboss-web.deployer/logintest.war/css/loginstyle.css",
+			"settings":
+			{
+				"buffer_size": 7040,
 				"line_ending": "Unix"
 			}
 		}
@@ -128,40 +139,51 @@
 	},
 	"file_history":
 	[
-		"/C/work/2013  analytics/pages2013.html",
-		"/I/startpage/helpdesk-b.html",
-		"/I/startpage/helpdesk-a.html",
-		"/I/startpage/helpdesk.html",
+		"/K/jboss-web.deployer/logintest.war/css/loginstyle.css",
+		"/C/Users/friesenj/Desktop/23-dark-login-form/css/style.css",
+		"/C/Users/friesenj/Desktop/23-dark-login-form/index.html",
+		"/K/jboss-web.deployer/logintest.war/login.jsp",
+		"/K/jboss-web.deployer/logintest.war/css/regstyle.css",
 		"/I/startpage/index.html",
-		"/I/startpage/windows.html",
-		"/I/startpage/documents.html",
-		"/I/startpage/sass/_wordpress.scss",
-		"/I/startpage/sass/_uniform.scss",
 		"/I/startpage/findstaff.html",
-		"/I/startpage/icons.html",
+		"/I/startpage/helpdesk.html",
 		"/I/startpage/installing.html",
 		"/I/startpage/monitors.html",
+		"/I/startpage/software.html",
+		"/I/startpage/windows.html",
+		"/I/startpage/icons.html",
+		"/I/startpage/helpdesk-b.html",
+		"/I/startpage/helpdesk-a.html",
+		"/I/startpage/documents.html",
 		"/I/startpage/browsers.html",
+		"/I/startpage/js/weathersettings.js",
+		"/I/startpage/js/fancysettings.js",
+		"/I/startpage/style.css",
+		"/C/Users/friesenj/Desktop/saturday",
+		"/C/Users/friesenj/Desktop/friday",
+		"/I/startpage/sass/_weather.scss",
+		"/I/startpage/sass/_nav.scss",
+		"/H/SHARED/Web 3.0/How to run a web project/index.html",
+		"/I/startpage/sass/style.scss",
+		"/H/SHARED/Web 3.0/How to run a web project/helpfullinks.html",
+		"/C/work/2013  analytics/pages2013.html",
+		"/I/startpage/sass/_wordpress.scss",
+		"/I/startpage/sass/_uniform.scss",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/SassBeautify.sublime-settings",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SassBeautify/SassBeautify.sublime-settings",
-		"/I/startpage/js/fancysettings.js",
 		"/I/startpage/sass/_oldie.scss",
 		"/I/startpage/js/fancybox/jquery.fancybox-1.3.4.css",
 		"/C/Users/friesenj/Desktop/jquery.fancybox-1.3.4.pack.js",
 		"/I/startpage/js/bgfade.js",
-		"/I/startpage/sass/style.scss",
 		"/I/startpage/sass/_layout.scss",
 		"/I/startpage/template.html",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/I/startpage/sass/_nav.scss",
-		"/I/startpage/sass/_weather.scss",
 		"/I/startpage/js/icheck.min.js",
 		"/C/Users/friesenj/AppData/Local/Temp/Temp1_font-awesome-4.0.3.zip/font-awesome-4.0.3/scss/font-awesome.scss",
 		"/I/startpage/js/weather.js",
 		"/C/Users/friesenj/Desktop/monkeecreate-jquery.simpleWeather-ac8f7e6/index.html",
-		"/I/startpage/style.css",
 		"/C/Users/friesenj/Desktop/monkeecreate-jquery.simpleWeather-ac8f7e6/simpleweather.jquery.json",
 		"/I/startpage/config.rb",
 		"/w/htdocs/elinkResults/index.html",
@@ -244,12 +266,11 @@
 		"/C/Users/friesenj/Desktop/testproject/testproject/sass/screen.css",
 		"/C/Users/friesenj/Desktop/testproject/stylesheets/screen.css",
 		"/C/Users/friesenj/Desktop/testproject/sass/screen.css",
-		"/C/Users/friesenj/Desktop/testproject/sass/screen.scss",
-		"/C/Users/friesenj/Desktop/testproject/config.rb"
+		"/C/Users/friesenj/Desktop/testproject/sass/screen.scss"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -264,9 +285,21 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"\"",
+			"@",
+			"<li><a href=\"mailto:helpdesk@saanich.ca\">Contact <i class=\"fa fa-user-md\"></i> IT Helpdesk <span>5440</span></a></li>",
+			"strong",
+			"XXXXXXXXXXXXXXXXX",
+			"What is a Virtual PC?",
+			"images/vpcsmall.png",
+			"images/vpc.png",
+			"Alex Cheung",
+			" helpdesk",
+			"helpdesk",
+			"File content comparison finished in .* Transfer skipped\\WStarting file content comparison \\W.*",
 			"label",
 			"\">\n",
 			"<link  rel=\"stylesheet\" href=\"///fonts.googleapis.com/css?family=Muli:300\" type=\"text/css\">",
@@ -358,6 +391,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"<link href=\"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css\" rel=\"stylesheet\">\n	<link  rel=\"stylesheet\" href=\"///fonts.googleapis.com/css?family=Muli:300\" type=\"text/css\">",
 			"\""
 		],
@@ -375,53 +409,53 @@
 			[
 				{
 					"buffer": 0,
-					"file": "sass/style.scss",
+					"file": "/K/jboss-web.deployer/logintest.war/login.html",
 					"settings":
 					{
-						"buffer_size": 12865,
+						"buffer_size": 1525,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10167,
-								10170
+								1525,
+								1525
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 9342.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "helpdesk-a.html",
+					"file": "/C/Users/friesenj/Desktop/23-dark-login-form/index.html",
 					"settings":
 					{
-						"buffer_size": 12183,
+						"buffer_size": 1102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1085,
+								1085
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": true,
+							"incomplete_sync": null,
 							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
@@ -435,30 +469,58 @@
 				},
 				{
 					"buffer": 2,
-					"file": "helpdesk.html",
+					"file": "/C/Users/friesenj/Desktop/23-dark-login-form/css/style.css",
 					"settings":
 					{
-						"buffer_size": 12203,
+						"buffer_size": 7040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8567,
-								8567
+								7040,
+								7040
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2821.0,
+						"translation.y": 5095.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/K/jboss-web.deployer/logintest.war/css/loginstyle.css",
+					"settings":
+					{
+						"buffer_size": 7040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7040,
+								7040
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4618.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -507,7 +569,7 @@
 	},
 	"replace":
 	{
-		"height": 64.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -577,7 +639,7 @@
 		[
 			[
 				"",
-				"/C/work/bmp/bmp.sublime-project"
+				"/C/work/emerg/saanich emergency.sublime-project"
 			]
 		],
 		"width": 767.0

@@ -36,6 +36,7 @@
 	<!-- CSS
 	================================================== -->
 	<link rel="stylesheet" href="style.css"  type='text/css'>
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css"  type='text/css'>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link  rel="stylesheet" href="///fonts.googleapis.com/css?family=Muli:300" type="text/css">
 
@@ -48,28 +49,14 @@
 	<script type="text/javascript" src="///ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/jquery.simpleWeather-2.3.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/fancysettings.js"></script>
+	<script type="text/javascript" src="js/weathersettings.js"></script>
 	<!--[if lt IE 9]>
 		<script src="///html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		  $.simpleWeather({
-			zipcode: '',
-			woeid: '23405825',
-			location: '',
-			unit: 'c',
-			success: function(weather) {
-			  html = '<p class="temperature"><span class="tempnum">'+weather.temp+'</span><span class="deg">&deg; </span>';
-			  html += '<img alt="'+weather.currently+' weather icon" width="32" src="images/weather/'+weather.code+'.png">';
-			  html += '<p class="currently">'+weather.currently+'</p>';
-			  $("#weather").html(html);
-			},
-			error: function(error) {
-			  $("#weather").html('<p>'+error+'</p>');
-			}
-		  });
-		});
-	</script>
 </head>
 
 <body>
@@ -79,7 +66,7 @@
 	<div class="topbar container fourcol">
 		<div class="col spanthree">
 			<h1 class="sitetitle">District of Saanich Help</h1>
-			<h2 class="sitetitle"><span>Dual Monitors</span></h2>
+			<h2 class="sitetitle"><span>What computer &amp; monitor will I receive?</span></h2>
 		</div>
 	</div>
 	<div class="navarea container fourcol">
@@ -94,14 +81,12 @@
 			<h3>I want help with...</h3>
 			<div class="textwidget">
 				<ul>
-					<li><a href="findstaff.html"><i class="fa fa-users"></i> Finding Staff</a></li>
-					<li><a href="helpdesk.html"><i class="fa fa-user-md"></i> Contacting Helpdesk</a></li>
+					<li><a href="findstaff.html"><i class="fa fa-users"></i> Finding staff</a></li>
+					<li><a href="helpdesk.html"><i class="fa fa-user-md"></i> Contacting IT Helpdesk</a></li>
 					<li><a href="windows.html"><i class="fa fa-windows"></i> Windows 7</a></li>
-					<li><a href="icons.html"><i class="fa fa-th"></i> Finding my old icons</a></li>
-					<li><a href="documents.html"><i class="fa fa-file-text-o"></i> Finding a document</a></li>
-					<li><a href="installing.html"><i class="fa fa-download"></i> installing software</a></li>
-					<li class="current-menu-item"><a href="monitors.html"><i class="fa fa-desktop"></i> Dual Monitors</a></li>
-					<li><a href="browsers.html"><i class="fa fa-cloud"></i> Web browsers</a></li>
+					<li><a href="windows.html"><i class="fa fa-windows"></i> Office 2013</a></li>
+					<li><a href="installing.html"><i class="fa fa-download"></i> Installing and using new software</a></li>
+					<li class="current-menu-item"><a href="monitors.html"><i class="fa fa-desktop"></i> Using my new PC and dual monitors</a></li>
 				</ul>
 			</div>    
 			<h3>IT Helpdesk</h3>
@@ -112,114 +97,142 @@
 				</ul>
 				<ul class="nobg">
 					<li><img src="/intranet/EmployeeDirectory/EmployeePics/IMG_2720.jpg" width="40" /></li>
-					<li><a href="mailto:Alex.Cheung@saanich.ca">Alex Cheung</a>Helpdesk Technician</li>	
+					<li><a href="mailto:Alex.Cheung@saanich.ca">Alex Cheung</a>IT Helpdesk Technician</li>	
 				</ul>
 			</div>    
 		</div>
 		<div class="col spantwo maincol">
-			<h3 class="pagetitle"><span>What is this page?</span></h3>
+			<h3 class="pagetitle"><span>What computer &amp; monitor will I receive?</span></h3>
 			<div class="contentarea">
-				<p>Lorem ipsum Proident irure deserunt sint velit est tempor anim et anim veniam enim reprehenderit est anim amet.</p>
-				<p>Ex laborum sed laboris esse irure dolore irure dolore elit exercitation.</p>
+				<div class="wp-caption alignright">
+					<a rel="fancygroup" title="What is a Virtual PC?" href="images/vpc.png">
+						<img alt="What is a Virtual PC?" class="size-thumbnail" src="images/vpcsmall.png">
+						<p class="wp-caption-text">What is a Virtual PC?</p>
+					</a>
+				</div>
+				<p>You will receive the computer and monitor identified during the needs assessment.  We now have six types of computers and two monitor types. Also, some meeting rooms will have computers and projectors installed.</p>
+				<p>In order to provide better service and a better computing experience, IT is setting new standards for the computers that will be supported across the organization. These standards are based on the specifications needed for different types of computing use.</p>
+				<p>After lengthy assessment, IT selected the following brand/models as our new standard supported computers:</p>
+			</div>
+			<h3 class="pagetitle"><span>How are computers assigned?</span></h3>
+			<div class="contentarea">
+				<p>Over the past three months, IT has completed a needs assessment to determine the type of computer everyone receives. This included completion of a needs assessment questionnaire and discussions with your managers. </p>
+				<p>The majority of staff will be given either a Standard Desktop or a Virtual PC and experience very good performance. However, there are two considerations that may change the computer type you receive:</p>
+				<p>The software you use: some software such as Adobe InDesign or AutoCAD requires more powerful computers (Power or High Power Desktops)</p>
+				<p>Your need to have remote access: if you need to have a computer away from your desk or meeting room, a laptop is assigned (Standard or Power Laptop). [Note: we will have computers and projectors in Committee Rooms 1, 2 (Hall), 3, 4 (Annex) and Public Works (Yard)</p>
+			</div>
+			<h3 class="pagetitle"><span>What computers are offered?</span></h3>
+			<div class="contentarea">
+				<h4>Standard Desktop</h4>
+				<div class="wp-caption alignright">
+					<a rel="fancygroup" title="HP EliteDesk 800 G1" href="images/pcpage/elitdesk800.jpg">
+						<img alt="HP EliteDesk 800 G1" class="size-thumbnail" src="images/pcpage/elitdesk800small.jpg">
+						<p class="wp-caption-text">EliteDesk 800</p>
+					</a>
+				</div>
+				<p>HP EliteDesk 800 G1 (Ultra Slim Desktop) for basic applications such as Groupwise, Office, Internet and most of our corporate applications such as Tempest, Class and JD Edwards</p>
+				<ul>
+					<li>3.4 Ghz Processor. 8MB cache, 4 core (8 threads)</li>
+					<li>8 GB memory</li>
+					<li>500 GB harddrive</li>
+					<li>AMD Radeon 8490 1GB graphics card</li>
+				</ul>
+				<h4>Virtual PC</h4>
+				<div class="wp-caption alignright">
+					<a rel="fancygroup" title="HP t310 Zero Thin Client" href="images/pcpage/zero.jpg">
+						<img alt="HP t310 Zero Thin Client" class="size-thumbnail" src="images/pcpage/zerosmall.jpg">
+						<p class="wp-caption-text">HP t310</p>
+					</a>
+				</div>
+				<p>HP t310 Zero Thin Client is a combination of hardware and software that are an alternative to Standard Desktops and delivery improved support and lower costs.</p>
+				<ul>
+					<li>TERA2321 PCoIP processor</li>
+					<li>256 MB Flash drive</li>
+				</ul>
+				<h4>Power Desktop</h4>
+				<div class="wp-caption alignright">
+					<a rel="fancygroup" title="HP Z230T" href="images/pcpage/Z230T.jpg">
+						<img alt="HP Z230T" class="size-thumbnail" src="images/pcpage/Z230Tsmall.jpg">
+						<p class="wp-caption-text">HP Z230T</p>
+					</a>
+				</div>
+				<p>HP Z230T for applications that require more powerful graphics performance, primarily ArcGIS Desk and Adobe Creative Suite.</p>
+				<ul>
+					<li>Intel® Xeon® processor, 3.4 GHz E3-1245v3, Quad-Core, 8 MB cache,</li>
+					<li>8 GB memory</li>
+					<li>500 GB harddrive</li>
+					<li>AMD Firepro V3900 1GB graphics card</li>
+				</ul>	
+				<h4>Hi Power Desktop</h4>
+				<div class="wp-caption alignright">
+					<a rel="fancygroup" title="HP Z420" href="images/pcpage/Z420.jpg">
+						<img alt="HP Z420" class="size-thumbnail" src="images/pcpage/Z420small.jpg">
+						<p class="wp-caption-text">HP Z420</p>
+					</a>
+				</div>
+				<p>HP Z420 for the AutoDesk applications power users (not required for basic AutoDesk functions)</p>
+				<ul>
+					<li>Intel Xeon E5-1660 v2 processor. 3.7GHZ 15Mb cache, 6 Core; 1866Mhz CPU
+					<li>32G memory
+					<li>250 GB SSD drive
+					<li>Nvidia Quadro K2k 2GB PCI-e GFX
+				</ul>
+				<h4>Standard Laptop</h4>
+				<div class="wp-caption alignright">
+					<a rel="fancygroup" title="HP EliteBook 840 G1" href="images/pcpage/elitebook840.jpg">
+						<img alt="HP EliteBook 840 G1" class="size-thumbnail" src="images/pcpage/elitebook840small.jpg">
+						<p class="wp-caption-text">EliteBook 840</p>
+					</a>
+				</div>
+				<p>HP EliteBook 840 G1 with dock provides the same functions as a Standard Desktop in a laptop.</p>
+				<ul>
+					<li>Intel Core™ i5-4300U with Intel HD Graphics 4400 (1.9 GHz, 3 MB cache, 2 cores)</li>
+					<li>8G memory
+					<li>320 GB hard drive
+				</ul>
+				<h4>Power Laptop</h4>
+				<div class="wp-caption alignright">
+					<a rel="fancygroup" title="HP ZBook 15" href="images/pcpage/zbook15.jpg">
+						<img alt="HP ZBook 15" class="size-thumbnail" src="images/pcpage/zbook15small.jpg">
+						<p class="wp-caption-text">HP ZBook 15</p>
+					</a>
+				</div>
+				<p>HP ZBook 15 for laptop users who require more powerful graphics performance, primarily ArcGIS Desk and Adobe Creative Suite.</p>
+				<ul>
+					<li>Intel® Core™ i7-4800MQ with Intel HD Graphics 4600 (2.7 GHz, 6 MB cache, 4 cores)</li>
+					<li>16G memory
+					<li>1 TB  hard drive
+				</ul>
 			</div>
 			<div class="col spantwo rowholder">
 				<div class="col">
-					<h3 class="pagetitle"><span>Why  a computer?</span></h3>
+					<h3 class="pagetitle"><span>What is a Virtual PC?</span></h3>
 					<div class="contentarea">
-						<p>Lorem ipsum Ullamco aliqua deserunt eiusmod officia aliquip deserunt ut occaecat Excepteur eu velit minim.</p>
+						
+						<p>Virtual PCs are an alternative to the Standard Desktop and will be a growing part of Saanich’s computing strategy.</p> 
+						<p>Virtual PCs will be delivered to a portion of staff as the first part of a transition to this new platform over several years.</p>
 					</div>
 				</div>
 				<div class="col">
-					<h3 class="pagetitle"><span>What is this machine?</span></h3>
+					<h3 class="pagetitle"><span>What about the monitor?</span></h3>
 					<div class="contentarea">
-						<p>Lorem ipsum Commodo amet ut sit ex voluptate mollit Ut aute aute.</p>
+						<p>Standard monitors are 24” flat screen monitors. Exceptions will be made for those who need dual 24” monitors (primarily Power &amp; Hi-Power clients) subject to supervisor approval. Clients who prefer two 19” monitors will be given repurposed current monitors</p>
 					</div>
 				</div>
 			</div>
-			<div class="col spantwo rowholder">
-				<h3 class="pagetitle"><span>Help and tutorials</span></h3>
-				<div class="contentarea">
-					<div class="video  spantwo rowholder">
-						<div class="col">
-							<span class="flex-video">
-								<iframe src="//www.youtube.com/embed/kCTeWiPsYro?rel=0" frameborder="0"></iframe>
-							</span>
-						</div>
-						<div class="col">
-							<h4>How is office 2013 different?</h4>
-							<p>Lorem ipsum Fugiat occaecat commodo Ut irure in Ut est nisi laboris exercitation occaecat proident.</p>
-							<p><a href="//www.youtube.com/watch?v=kCTeWiPsYro" class="more-link">...See full video</a></p>
-						</div>
-					</div>
-					<hr />
-					<div class="video  spantwo rowholder">
-						<div class="col">
-							<span class="flex-video">
-								<iframe src="//www.youtube.com/embed/11nFGohTNPw?rel=0" frameborder="0"></iframe>
-							</span>
-						</div>
-						<div class="col">
-							<h4>Introduction to Windows 7 for Beginners</h4>
-							<p>Lorem ipsum Fugiat occaecat commodo Ut irure in Ut est nisi laboris exercitation occaecat proident.</p>
-							<p><a href="//www.youtube.com/watch?v=11nFGohTNPw" class="more-link">...See full video</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			
 		</div>
 		<div class="col subcol">
 			<h3>Quick Links</h3>
 			<div class="textwidget">
 				<ul class="nobg">
-					<li><a href="mailto:helpdesk@saanich.ca">Contact Helpdesk <span>5440</span></a></li>
+					
 					<li><a href="//elink">Open E-link</a></li>
 					<li><a href="http://saanich.ca">Saanich Website</a></li>
 				</ul>
 			</div> 
-			<h3>Send Helpdesk a ticket</h3>
-			<form> 
-				<h4>Regarding...</h4>
-				<div class="tags">
-					<input type="radio" id="toggle-1" name="regarding" value="E-link">
-					<label for="toggle-1">E-link</label>
-					<hr />
-					<input type="radio" id="toggle-2" name="regarding" value="ePersonality">
-					<label for="toggle-2">ePersonality</label>
-					<hr />
-					<input type="radio" id="toggle-3" name="regarding" value="JDEdwards">
-					<label for="toggle-3">JDEdwards</label>
-					<hr />
-					<input type="radio" id="toggle-4" name="regarding" value="Class">
-					<label for="toggle-4">Class</label>
-					<hr />
-					<input type="radio" id="toggle-5" name="regarding" value="Browser">
-					<label for="toggle-5">My Browser</label>
-					<hr />
-					<input type="radio" id="toggle-6" name="regarding" value="PC">
-					<label for="toggle-6">My PC</label>
-					<hr />
-					<input type="radio" id="toggle-7" name="regarding" value="Printer">
-					<label for="toggle-7">A Printer</label>
-					<hr />
-					<input type="radio" id="toggle-8" name="regarding" value="Training">
-					<label for="toggle-8">Training</label>
-					<hr />
-					<input type="radio" id="toggle-9" name="regarding" value="Installation">
-					<label for="toggle-9" class="full">Software Installation</label>
-					<hr />
-					<input type="radio" id="toggle-10" name="regarding" value="Other">
-					<label for="toggle-10" class="full">Other</label>
-	      		</div>
-	      		<h4>From...</h4>
-	      		<label for="your-nam">Name</label>
-	      		<input type="text" id="your-name" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" />
-				<label for="your-email">Email</label>
-				<input type="email" id="your-email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" />
-				<label for="your-message">Please describe the issue</label>
-				<textarea id="your-message" name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea>
-	      		<input type="submit" value="Send ticket"/>
-	      	</form>
+			<h3>Contact Helpdesk</h3>
+			<p>If you are having difficulties with your PC or a program, and you need more help, please <a href="helpdesk.html"> contact the <i class="fa fa-user-md"></i> IT Helpdesk</a>. </p>
+
 		</div>
 	</div>
 	<div class="footer main">

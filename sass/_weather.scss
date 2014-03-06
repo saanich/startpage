@@ -1,6 +1,7 @@
 /*
 Weather Widget 
 */
+.weatherholder{height:75px;}
 
 #weather {
   float:right;
@@ -23,7 +24,7 @@ Weather Widget
 #weather .temperature {
 	font-size:2.5em;
 	font-weight:normal;
-	span, img{vertical-align:top;}
+  span, img{vertical-align:top;}
   span.tempnum {line-height:.9em;}
-	span.deg {font-size:.6em;}
+  span.deg {font-size:.6em;}
 }
