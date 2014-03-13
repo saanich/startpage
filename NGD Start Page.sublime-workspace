@@ -35,103 +35,15 @@
 			"file": "help/index.html",
 			"settings":
 			{
-				"buffer_size": 8691,
+				"buffer_size": 9728,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "help/monitors.html",
-			"settings":
-			{
-				"buffer_size": 9016,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "help/virtual.html",
-			"settings":
-			{
-				"buffer_size": 9016,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "help/helpdesk.html",
-			"settings":
-			{
-				"buffer_size": 13484,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "help/installing.html",
-			"settings":
-			{
-				"buffer_size": 9338,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "help/windows.html",
-			"settings":
-			{
-				"buffer_size": 9653,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "help/office.html",
-			"settings":
-			{
-				"buffer_size": 9653,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/style.scss",
-			"settings":
-			{
-				"buffer_size": 12897,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 10746,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "computer.html",
-			"settings":
-			{
-				"buffer_size": 14287,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "monitor.html",
-			"settings":
-			{
-				"buffer_size": 14287,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "gettingready.html",
-			"settings":
-			{
-				"buffer_size": 8605,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "reps.html",
 			"settings":
 			{
-				"buffer_size": 9989,
+				"buffer_size": 9994,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,7 +51,7 @@
 			"file": "software.html",
 			"settings":
 			{
-				"buffer_size": 8589,
+				"buffer_size": 8599,
 				"line_ending": "Windows"
 			}
 		},
@@ -147,16 +59,48 @@
 			"file": "super.html",
 			"settings":
 			{
-				"buffer_size": 10025,
+				"buffer_size": 10030,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10671,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "monitor.html",
+			"settings":
+			{
+				"buffer_size": 9276,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "computer.html",
+			"settings":
+			{
+				"buffer_size": 13778,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "delivery.html",
 			"settings":
 			{
-				"buffer_size": 12106,
+				"buffer_size": 12111,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gettingready.html",
+			"settings":
+			{
+				"buffer_size": 8610,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -232,27 +176,31 @@
 	},
 	"file_history":
 	[
-		"/I/startpage/delivery.html",
-		"/I/startpage/help/findstaff.html",
-		"/I/startpage/help/office.html",
+		"/I/startpage/js/fancybox/jquery.fancybox-1.3.4.css",
+		"/I/startpage/js/fancysettings.js",
 		"/I/startpage/sass/style.scss",
-		"/I/startpage/sass/_print.scss",
-		"/I/startpage/style.css",
+		"/I/startpage/monitor.html",
+		"/I/startpage/help/virtual.html",
 		"/I/startpage/index.html",
-		"/I/startpage/startpage.sublime-project",
-		"/I/startpage/js/weathersettings.js",
-		"/I/startpage/help/monitors.html",
+		"/I/startpage/help/index.html",
+		"/I/startpage/computer.html",
+		"/I/startpage/delivery.html",
+		"/I/startpage/software.html",
+		"/I/startpage/reps.html",
+		"/I/startpage/gettingready.html",
+		"/I/startpage/help/office.html",
+		"/I/startpage/help/windows.html",
 		"/I/startpage/help/installing.html",
 		"/I/startpage/help/helpdesk.html",
-		"/I/startpage/help/windows.html",
-		"/H/SHARED/Web 3.0/joel/library.html",
-		"/I/startpage/help/index.html",
-		"/I/startpage/software.html",
-		"/I/startpage/policies/index.html",
-		"/I/startpage/computer.html",
-		"/I/startpage/gettingready.html",
-		"/I/startpage/reps.html",
+		"/I/startpage/help/monitors.html",
 		"/I/startpage/super.html",
+		"/I/startpage/help/findstaff.html",
+		"/I/startpage/sass/_print.scss",
+		"/I/startpage/style.css",
+		"/I/startpage/startpage.sublime-project",
+		"/I/startpage/js/weathersettings.js",
+		"/H/SHARED/Web 3.0/joel/library.html",
+		"/I/startpage/policies/index.html",
 		"/I/startpage/monitors.html",
 		"/I/startpage/windows.html",
 		"/I/startpage/installing.html",
@@ -269,7 +217,6 @@
 		"/I/startpage/helpdesk-a.html",
 		"/I/startpage/documents.html",
 		"/I/startpage/browsers.html",
-		"/I/startpage/js/fancysettings.js",
 		"/C/Users/friesenj/Desktop/saturday",
 		"/C/Users/friesenj/Desktop/friday",
 		"/I/startpage/sass/_weather.scss",
@@ -282,7 +229,6 @@
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/SassBeautify.sublime-settings",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SassBeautify/SassBeautify.sublime-settings",
 		"/I/startpage/sass/_oldie.scss",
-		"/I/startpage/js/fancybox/jquery.fancybox-1.3.4.css",
 		"/C/Users/friesenj/Desktop/jquery.fancybox-1.3.4.pack.js",
 		"/I/startpage/js/bgfade.js",
 		"/I/startpage/sass/_layout.scss",
@@ -357,19 +303,18 @@
 		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/index.html",
 		"/C/work/saanich/htdocs/discover/artsheritagearc/index.html",
 		"/C/work/saanich/htdocs/navigation/nav-discover.shtml",
-		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/welcome.html",
-		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/saanichremembers.html",
-		"/C/work/saanich/config.rb"
+		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/welcome.html"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"I:\\startpage\\NGD Start Page.sublime-project,I:\\startpage\\NGD Start Page.sublime-workspace,I:\\startpage\\computer.html,I:\\startpage\\config.rb,I:\\startpage\\delivery.html,I:\\startpage\\gettingready.html,I:\\startpage\\index.html,I:\\startpage\\monitor.html,I:\\startpage\\oldie.css,I:\\startpage\\reps.html,I:\\startpage\\software.html,I:\\startpage\\style.css,I:\\startpage\\super.html",
 			"I:\\startpage\\sass",
 			"I:\\startpage",
 			"w:\\htdocs",
@@ -382,6 +327,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"helpdesk.html\"",
+			"24",
 			"fa-keyboard",
 			".fa",
 			".contentarea h1.pagetitle,",
@@ -504,6 +451,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"help/helpdesk.html\"",
 			"fa-keyboard-o",
 			"computer.html",
 			"<li><a href=\"computer.html\"><i class=\"fa fa-desktop fa-fw\"></i> What computer &amp; monitor will I receive?</a></li>\n					",
@@ -527,7 +475,7 @@
 	"groups":
 	[
 		{
-			"selected": 14,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -535,15 +483,15 @@
 					"file": "help/index.html",
 					"settings":
 					{
-						"buffer_size": 8691,
+						"buffer_size": 9728,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6157,
-								6749
+								8964,
+								8964
 							]
 						],
 						"settings":
@@ -555,25 +503,25 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1674.0,
+						"translation.y": 2268.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "help/monitors.html",
+					"file": "reps.html",
 					"settings":
 					{
-						"buffer_size": 9016,
+						"buffer_size": 9994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6734,
-								6734
+								7617,
+								7617
 							]
 						],
 						"settings":
@@ -585,55 +533,54 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1728.0,
+						"translation.y": 2376.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "help/virtual.html",
+					"file": "software.html",
 					"settings":
 					{
-						"buffer_size": 9016,
+						"buffer_size": 8599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6734,
-								6734
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1728.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "help/helpdesk.html",
+					"file": "super.html",
 					"settings":
 					{
-						"buffer_size": 13484,
+						"buffer_size": 10030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6744,
-								6744
+								1234,
+								1234
 							]
 						],
 						"settings":
@@ -645,25 +592,25 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1674.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "help/installing.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 9338,
+						"buffer_size": 10671,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6741,
-								6741
+								10450,
+								10450
 							]
 						],
 						"settings":
@@ -674,56 +621,55 @@
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 1674.0,
+						"translation.x": 551.0,
+						"translation.y": 2970.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "help/windows.html",
+					"file": "monitor.html",
 					"settings":
 					{
-						"buffer_size": 9653,
+						"buffer_size": 9276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6712,
-								6712
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1566.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "help/office.html",
+					"file": "computer.html",
 					"settings":
 					{
-						"buffer_size": 9653,
+						"buffer_size": 13778,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7274,
-								7274
+								0,
+								0
 							]
 						],
 						"settings":
@@ -735,276 +681,66 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3024.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "sass/style.scss",
+					"file": "delivery.html",
 					"settings":
 					{
-						"buffer_size": 12897,
+						"buffer_size": 12111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7437,
-								7437
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6078.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 10746,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6045,
-								6045
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1728.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "computer.html",
-					"settings":
-					{
-						"buffer_size": 14287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6153,
-								6153
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1566.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "monitor.html",
-					"settings":
-					{
-						"buffer_size": 14287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6127,
-								6127
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1674.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
 					"file": "gettingready.html",
 					"settings":
 					{
-						"buffer_size": 8605,
+						"buffer_size": 8610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6163,
-								6163
+								567,
+								567
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"is_xml": false,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1728.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "reps.html",
-					"settings":
-					{
-						"buffer_size": 9989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6148,
-								6148
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1620.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "software.html",
-					"settings":
-					{
-						"buffer_size": 8589,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6154,
-								6152
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1620.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "super.html",
-					"settings":
-					{
-						"buffer_size": 10025,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6155,
-								6153
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1836.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "delivery.html",
-					"settings":
-					{
-						"buffer_size": 12106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6121,
-								6121
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1620.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
