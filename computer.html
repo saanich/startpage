@@ -60,18 +60,39 @@
 </head>
 
 <body>
+ 	<input type="checkbox" class="main-nav-check" id="main-nav-check" /> 
+  <label for="main-nav-check" class="toggle-menu">Navigation</label>
+  <nav class="menubar mobile-nav" id="mobile-nav">
+    <div class="container">
+    	<ul id="menu-mobile" class="menu">
+    		<li class="menu-item current-menu-item"><a href="//elink/startpage/index.html">About NGD</a></li>
+				<li class="menu-item"><a href="//elink/startpage/help/index.html">NGD Help</a></li>
+				<li class="menu-item"><a href="//elink/startpage/policies/index.html">Policies and documents</a></li>
+			</ul>
+		</div>
+	</nav> 
 	<div class="weatherholder container fourcol">
 		<div id="weather" class="col"></div>
 	</div>
 	<div class="topbar container fourcol">
 		<div class="col spanthree">
-			<h1 class="sitetitle">District of Saanich Help</h1>
+			<h1 class="sitetitle">Next Generation Desktop Help</h1>
 			<h2 class="sitetitle"><span>What computer &amp; monitor will I receive?</span></h2>
 		</div>
 	</div>
 	<div class="navarea container fourcol">
 		<div class="col bodybackgroundcolour rowholder">&nbsp;</div>
-		<div class="col spanthree rowholder"></div>
+		<div class="col spanthree rowholder">
+      <nav class="menubar main-nav" id="main-nav">
+        <div class="menu-desktop-container">
+	        <ul id="menu-mobile" class="menu">
+		    		<li class="menu-item current-menu-item"><a href="//elink/startpage/index.html">About NGD</a></li>
+						<li class="menu-item"><a href="//elink/startpage/help/index.html">NGD Help</a></li>
+						<li class="menu-item"><a href="//elink/startpage/policies/index.html">Policies and documents</a></li>
+					</ul>
+				</div>      
+			</nav>
+    </div>
 	</div>
 	<div class="container headdecor">&nbsp;</div>
 	<div class="main container fourcol">
@@ -81,12 +102,13 @@
 			<h3>I want help with...</h3>
 			<div class="textwidget">
 				<ul>
-					<li><a href="findstaff.html"><i class="fa fa-users"></i> Finding staff</a></li>
-					<li><a href="helpdesk.html"><i class="fa fa-user-md"></i> Contacting IT Helpdesk</a></li>
-					<li><a href="windows.html"><i class="fa fa-windows"></i> Windows 7</a></li>
-					<li><a href="windows.html"><i class="fa fa-windows"></i> Office 2013</a></li>
-					<li><a href="installing.html"><i class="fa fa-download"></i> Installing and using new software</a></li>
-					<li class="current-menu-item"><a href="monitors.html"><i class="fa fa-desktop"></i> Using my new PC and dual monitors</a></li>
+					<li><a href="delivery.html"><i class="fa fa-truck  fa-fw"></i> Current delivery schedule</a></li>
+					<li><a href="gettingready.html"><i class="fa fa-user  fa-fw"></i> How to get ready</a></li>
+					<li><a href="reps.html"><i class="fa fa-users  fa-fw"></i> NGD Department Reps</a></li>
+					<li><a href="software.html"><i class="fa fa-download fa-fw"></i> What software will I receive?</a></li>
+					<li class="current-menu-item"><a href="computer.html"><i class="fa fa-keyboard-o fa-fw"></i> What computer will I receive?</a></li>
+					<li><a href="monitor.html"><i class="fa fa-desktop fa-fw"></i> What monitor will I receive?</a></li>
+					<li><a href="help/helpdesk.html"><i class="fa fa-user-md  fa-fw"></i> How to contact IT Helpdesk</a></li>
 				</ul>
 			</div>    
 			<h3>IT Helpdesk</h3>
@@ -104,12 +126,7 @@
 		<div class="col spantwo maincol">
 			<h3 class="pagetitle"><span>What computer &amp; monitor will I receive?</span></h3>
 			<div class="contentarea">
-				<div class="wp-caption alignright">
-					<a rel="fancygroup" title="What is a Virtual PC?" href="images/vpc.png">
-						<img alt="What is a Virtual PC?" class="size-thumbnail" src="images/vpcsmall.png">
-						<p class="wp-caption-text">What is a Virtual PC?</p>
-					</a>
-				</div>
+				
 				<p>You will receive the computer and monitor identified during the needs assessment.  We now have six types of computers and two monitor types. Also, some meeting rooms will have computers and projectors installed.</p>
 				<p>In order to provide better service and a better computing experience, IT is setting new standards for the computers that will be supported across the organization. These standards are based on the specifications needed for different types of computing use.</p>
 				<p>After lengthy assessment, IT selected the following brand/models as our new standard supported computers:</p>
@@ -208,7 +225,12 @@
 				<div class="col">
 					<h3 class="pagetitle"><span>What is a Virtual PC?</span></h3>
 					<div class="contentarea">
-						
+						<div class="wp-caption">
+					<a rel="fancygroup" title="What is a Virtual PC?" href="images/vpc.png">
+						<img alt="What is a Virtual PC?" class="size-thumbnail" src="images/vpcsmall.png">
+						<p class="wp-caption-text">What is a Virtual PC?</p>
+					</a>
+				</div>
 						<p>Virtual PCs are an alternative to the Standard Desktop and will be a growing part of Saanich’s computing strategy.</p> 
 						<p>Virtual PCs will be delivered to a portion of staff as the first part of a transition to this new platform over several years.</p>
 					</div>

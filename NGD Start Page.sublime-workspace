@@ -1,0 +1,1137 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tec",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"div",
+				"div"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "help/index.html",
+			"settings":
+			{
+				"buffer_size": 8691,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "help/monitors.html",
+			"settings":
+			{
+				"buffer_size": 9016,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "help/virtual.html",
+			"settings":
+			{
+				"buffer_size": 9016,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "help/helpdesk.html",
+			"settings":
+			{
+				"buffer_size": 13484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "help/installing.html",
+			"settings":
+			{
+				"buffer_size": 9338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "help/windows.html",
+			"settings":
+			{
+				"buffer_size": 9653,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "help/office.html",
+			"settings":
+			{
+				"buffer_size": 9653,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 12897,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10746,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "computer.html",
+			"settings":
+			{
+				"buffer_size": 14287,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "monitor.html",
+			"settings":
+			{
+				"buffer_size": 14287,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gettingready.html",
+			"settings":
+			{
+				"buffer_size": 8605,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reps.html",
+			"settings":
+			{
+				"buffer_size": 9989,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "software.html",
+			"settings":
+			{
+				"buffer_size": 8589,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "super.html",
+			"settings":
+			{
+				"buffer_size": 10025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "delivery.html",
+			"settings":
+			{
+				"buffer_size": 12106,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"sas",
+				"SassBeautify"
+			],
+			[
+				"SassBeautify",
+				"SassBeautify"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: display:none"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 364.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/I/startpage/delivery.html",
+		"/I/startpage/help/findstaff.html",
+		"/I/startpage/help/office.html",
+		"/I/startpage/sass/style.scss",
+		"/I/startpage/sass/_print.scss",
+		"/I/startpage/style.css",
+		"/I/startpage/index.html",
+		"/I/startpage/startpage.sublime-project",
+		"/I/startpage/js/weathersettings.js",
+		"/I/startpage/help/monitors.html",
+		"/I/startpage/help/installing.html",
+		"/I/startpage/help/helpdesk.html",
+		"/I/startpage/help/windows.html",
+		"/H/SHARED/Web 3.0/joel/library.html",
+		"/I/startpage/help/index.html",
+		"/I/startpage/software.html",
+		"/I/startpage/policies/index.html",
+		"/I/startpage/computer.html",
+		"/I/startpage/gettingready.html",
+		"/I/startpage/reps.html",
+		"/I/startpage/super.html",
+		"/I/startpage/monitors.html",
+		"/I/startpage/windows.html",
+		"/I/startpage/installing.html",
+		"/I/startpage/helpdesk.html",
+		"/I/startpage/findstaff.html",
+		"/K/jboss-web.deployer/logintest.war/css/loginstyle.css",
+		"/C/Users/friesenj/Desktop/23-dark-login-form/css/style.css",
+		"/C/Users/friesenj/Desktop/23-dark-login-form/index.html",
+		"/K/jboss-web.deployer/logintest.war/login.html",
+		"/K/jboss-web.deployer/logintest.war/login.jsp",
+		"/K/jboss-web.deployer/logintest.war/css/regstyle.css",
+		"/I/startpage/icons.html",
+		"/I/startpage/helpdesk-b.html",
+		"/I/startpage/helpdesk-a.html",
+		"/I/startpage/documents.html",
+		"/I/startpage/browsers.html",
+		"/I/startpage/js/fancysettings.js",
+		"/C/Users/friesenj/Desktop/saturday",
+		"/C/Users/friesenj/Desktop/friday",
+		"/I/startpage/sass/_weather.scss",
+		"/I/startpage/sass/_nav.scss",
+		"/H/SHARED/Web 3.0/How to run a web project/index.html",
+		"/H/SHARED/Web 3.0/How to run a web project/helpfullinks.html",
+		"/C/work/2013  analytics/pages2013.html",
+		"/I/startpage/sass/_wordpress.scss",
+		"/I/startpage/sass/_uniform.scss",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/SassBeautify.sublime-settings",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/I/startpage/sass/_oldie.scss",
+		"/I/startpage/js/fancybox/jquery.fancybox-1.3.4.css",
+		"/C/Users/friesenj/Desktop/jquery.fancybox-1.3.4.pack.js",
+		"/I/startpage/js/bgfade.js",
+		"/I/startpage/sass/_layout.scss",
+		"/I/startpage/template.html",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/I/startpage/js/icheck.min.js",
+		"/C/Users/friesenj/AppData/Local/Temp/Temp1_font-awesome-4.0.3.zip/font-awesome-4.0.3/scss/font-awesome.scss",
+		"/I/startpage/js/weather.js",
+		"/C/Users/friesenj/Desktop/monkeecreate-jquery.simpleWeather-ac8f7e6/index.html",
+		"/C/Users/friesenj/Desktop/monkeecreate-jquery.simpleWeather-ac8f7e6/simpleweather.jquery.json",
+		"/I/startpage/config.rb",
+		"/w/htdocs/elinkResults/index.html",
+		"/C/Users/friesenj/Desktop/elinkResults/index.html",
+		"/C/Users/friesenj/Desktop/charts/examples/bar-stacked/index.htm",
+		"/C/Users/friesenj/Desktop/Charta/elinksurvey.html",
+		"/C/Users/friesenj/Desktop/index.html",
+		"/w/htdocs/ui/feeds/whatsNew.rss.LCK",
+		"/C/Users/friesenj/Desktop/Charta/samples/bar.html",
+		"/C/Users/friesenj/AppData/Local/Temp/Temp1_fancyapps-fancyBox-v2.1.5-0-ge2248f4.zip/fancyapps-fancyBox-18d1712/demo/index.html",
+		"/C/Users/friesenj/Desktop/Charta/Chart.js",
+		"/C/Users/friesenj/Desktop/Calendar2014.html",
+		"/w/htdocs/services/gis/pir.html",
+		"/w/htdocs/services/gis/html5.html",
+		"/w/htdocs/navigation/nav-living.shtml",
+		"/w/htdocs/ui/styles/responsive/screen.css",
+		"/C/Users/friesenj/Desktop/Chart.js-master/samples/bar.html",
+		"/w/maps/map.txt",
+		"/w/htdocs/images/headers/esa-banner.jpg",
+		"/w/htdocs/councilpages/privacy.html",
+		"/W/htdocs/services/gis/pir.html",
+		"/W/saanichwebroot.sublime-project",
+		"/W/sftp-config.json",
+		"/C/work/saanich/sftp-config.json",
+		"/X/sftp-config.json",
+		"/X/ui/includes/head.php",
+		"/X/ui/includes/header.php",
+		"/X/ui/styles/responsive/screen.css",
+		"/X/index.html",
+		"/C/work/saanich/htdocs/index.html",
+		"/C/work/saanich/htdocs/ui/styles/responsive/screen.css",
+		"/C/work/saanich/htdocs/ui/styles/2012/screen.css",
+		"/C/work/saanich/htdocs/archive2001/index.html",
+		"/C/Users/friesenj/Desktop/index.php",
+		"/C/Users/friesenj/Desktop/form.html",
+		"/C/Users/friesenj/Desktop/form2.html",
+		"/C/Users/friesenj/Desktop/text.htm",
+		"/C/work/saanich/htdocs/archive2001/ibox.js",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/work/saanich/htdocs/navigation/nav-parksrec.shtml",
+		"/C/work/saanich/htdocs/parkrec/parks/trees/private.html",
+		"/C/work/saanich/htdocs/parkrec/parks/trees/index.html",
+		"/C/Users/friesenj/Desktop/archive2001/index.html",
+		"/C/work/saanich/htdocs/archive2001/site/index.htm",
+		"/C/work/saanich/htdocs/sep/index.html",
+		"/G/USERS/FriesenJ/joyride/demo/demo.html",
+		"/C/Users/friesenj/Desktop/Flat-UI-master/template.html",
+		"/C/work/saanich/htdocs/living/about/news/2013/halloween.html",
+		"/D/htdocs/index.html",
+		"/C/Users/friesenj/Desktop/2007/index.html",
+		"/C/Users/friesenj/Desktop/Saanich Online/index.html",
+		"/C/work/saanich/htdocs/services/gis/index.html",
+		"/C/work/saanich/htdocs/services/gis/details.html",
+		"/C/work/saanich/htdocs/navigation/nav-student.shtml",
+		"/C/work/saanich/sass/style.scss",
+		"/C/work/saanich/htdocs/images/1990-028-018.jpg",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/index.html",
+		"/C/work/saanich/htdocs/discover/artsheritagearc/index.html",
+		"/C/work/saanich/htdocs/navigation/nav-discover.shtml",
+		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/welcome.html",
+		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/saanichremembers.html",
+		"/C/work/saanich/config.rb"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"I:\\startpage\\sass",
+			"I:\\startpage",
+			"w:\\htdocs",
+			"w:\\maps",
+			"w:\\htdocs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fa-keyboard",
+			".fa",
+			".contentarea h1.pagetitle,",
+			" class=\"current-menu-item\"",
+			"Visitor Languages",
+			"monitors.html",
+			"<li><a href=\"monitors.html\"><i class=\"fa fa-desktop fa-fw\"></i> What computer &amp; monitor will I receive?</a></li>\n					",
+			"<li><a href=\"monitors.html\"><i class=\"fa fa-desktop\"></i> What computer &amp; monitor will I receive?</a></li>",
+			"<li><a href=\"monitors.html\"><i class=\"fa fa-desktop fa-fw\"></i> What computer &amp; monitor will I receive?</a></li>\n					",
+			"District of Saanich Help",
+			"<h1 class=\"sitetitle\">District of Saanich Help</h1>",
+			"h",
+			"<h1 class=\"sitetitle\">District of Saanich Help</h1>",
+			"stack",
+			"Polcies",
+			"Polcies and documentation",
+			"<div class=\"navarea container fourcol\">\n		<div class=\"col bodybackgroundcolour rowholder\">&nbsp;</div>\n		<div class=\"col spanthree rowholder\"></div>\n	</div>",
+			"<body>\n	<div class=\"weatherholder container fourcol\">",
+			"<body>\n	<div class=\"weatherholder container fourcol\">\n",
+			"\"",
+			"@",
+			"<li><a href=\"mailto:helpdesk@saanich.ca\">Contact <i class=\"fa fa-user-md\"></i> IT Helpdesk <span>5440</span></a></li>",
+			"strong",
+			"XXXXXXXXXXXXXXXXX",
+			"What is a Virtual PC?",
+			"images/vpcsmall.png",
+			"images/vpc.png",
+			"Alex Cheung",
+			" helpdesk",
+			"helpdesk",
+			"File content comparison finished in .* Transfer skipped\\WStarting file content comparison \\W.*",
+			"label",
+			"\">\n",
+			"<link  rel=\"stylesheet\" href=\"///fonts.googleapis.com/css?family=Muli:300\" type=\"text/css\">",
+			"example_group",
+			"spantwo",
+			"priority",
+			"full",
+			"3",
+			"2",
+			"priority",
+			"regarding",
+			"Department",
+			"- ",
+			"Services",
+			"Division",
+			"Section",
+			"option",
+			"h2",
+			"pagetitle",
+			"indent",
+			"googlefont1",
+			"main",
+			"3em",
+			"	}",
+			"deg",
+			"wea",
+			"nobg",
+			"\">",
+			"checkbox",
+			"archives@saanich.ca/",
+			"192.168",
+			".pdf",
+			"kelownamuseums",
+			"None.pdf",
+			"</td>",
+			"christian",
+			"friesen",
+			"joel.friesen",
+			"||",
+			"*.lck",
+			"inline1",
+			"scaleStepWidth : 5",
+			"scaleSteps : 20",
+			"scaleSteps : 20,\n		scaleStepWidth : 5,",
+			"[5 ]",
+			"[2 ]",
+			"[17]",
+			"[76]",
+			"5 ",
+			"\"Finding an employees name\"",
+			"5]",
+			"2],",
+			",",
+			">\n",
+			"	",
+			"<tr>\n		<td>",
+			" ",
+			"    ",
+			" align=\"right\"",
+			"d",
+			" width=\"79\"",
+			" width=\"231\"",
+			" style=\"width: 20%;",
+			"style=\"width: 20%;\"",
+			"height:",
+			"Bylaw.html",
+			"bylaw.html",
+			"boulevard.html",
+			"boulevard.html ",
+			"private.html",
+			"?",
+			"\"/",
+			"h2",
+			"Content",
+			"content",
+			"div",
+			"upload",
+			"ctrl+shift+alt+d",
+			"ctrl+shift+d",
+			"ctrl+d",
+			"saanich.ca/",
+			"1911",
+			"nav",
+			"\n        <li><a href=\"#\">item</a></li>\n        <li><a href=\"#\">item<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fa-keyboard-o",
+			"computer.html",
+			"<li><a href=\"computer.html\"><i class=\"fa fa-desktop fa-fw\"></i> What computer &amp; monitor will I receive?</a></li>\n					",
+			"Next Generation Desktop Help",
+			"<h1 class=\"sitetitle\">Next Generation Desktop Help</h1>",
+			"Policies",
+			"Polcies and documents",
+			"<div class=\"navarea container fourcol\">\n		<div class=\"col bodybackgroundcolour rowholder\">&nbsp;</div>\n		<div class=\"col spanthree rowholder\">\n      <nav class=\"menubar main-nav\" id=\"main-nav\">\n        <div class=\"menu-desktop-container\">\n	        <ul id=\"menu-mobile\" class=\"menu\">\n		    		<li class=\"menu-item current-menu-item\"><a href=\"//elink/startpage/index.html\">About NGD</a></li>\n						<li class=\"menu-item\"><a href=\"//elink/startpage/help/index.html\">NGD Help</a></li>\n						<li class=\"menu-item\"><a href=\"//elink/startpage/policies/index.html\">Polcies and documentation</a></li>\n					</ul>\n				</div>      \n			</nav>\n    </div>\n	</div>",
+			"<body>\n 	<input type=\"checkbox\" class=\"main-nav-check\" id=\"main-nav-check\" /> \n  <label for=\"main-nav-check\" class=\"toggle-menu\">Navigation</label>\n  <nav class=\"menubar mobile-nav\" id=\"mobile-nav\">\n    <div class=\"container\">\n    	<ul id=\"menu-mobile\" class=\"menu\">\n    		<li class=\"menu-item current-menu-item\"><a href=\"//elink/startpage/index.html\">About NGD</a></li>\n				<li class=\"menu-item\"><a href=\"//elink/startpage/help/index.html\">NGD Help</a></li>\n				<li class=\"menu-item\"><a href=\"//elink/startpage/policies/index.html\">Polcies and documentation</a></li>\n			</ul>\n		</div>\n	</nav> \n	<div class=\"weatherholder container fourcol\">",
+			"<body>\n 	<input type=\"checkbox\" class=\"main-nav-check\" id=\"main-nav-check\" /> \n  <label for=\"main-nav-check\" class=\"toggle-menu\">Navigation</label>\n  <nav class=\"menubar mobile-nav\" id=\"mobile-nav\">\n    <div class=\"container\">\n    	<ul id=\"menu-mobile\" class=\"menu\">\n    		<li class=\"menu-item current-menu-item\"><a href=\"//elink/startpage/index.html\">About NGD</a></li>\n				<li class=\"menu-item\"><a href=\"//elink/startpage/help/index.html\">NGD Help</a></li>\n				<li class=\"menu-item\"><a href=\"//elink/startpage/policies/index.html\">Polcies and documentation</a></li>\n			</ul>\n		</div>\n	</nav> \n	<div class=\"weatherholder container fourcol\">\n",
+			"",
+			"<link href=\"//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css\" rel=\"stylesheet\">\n	<link  rel=\"stylesheet\" href=\"///fonts.googleapis.com/css?family=Muli:300\" type=\"text/css\">",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 14,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "help/index.html",
+					"settings":
+					{
+						"buffer_size": 8691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6157,
+								6749
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "help/monitors.html",
+					"settings":
+					{
+						"buffer_size": 9016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6734,
+								6734
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1728.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "help/virtual.html",
+					"settings":
+					{
+						"buffer_size": 9016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6734,
+								6734
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1728.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "help/helpdesk.html",
+					"settings":
+					{
+						"buffer_size": 13484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6744,
+								6744
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "help/installing.html",
+					"settings":
+					{
+						"buffer_size": 9338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6741,
+								6741
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "help/windows.html",
+					"settings":
+					{
+						"buffer_size": 9653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6712,
+								6712
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "help/office.html",
+					"settings":
+					{
+						"buffer_size": 9653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7274,
+								7274
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3024.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 12897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7437,
+								7437
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6078.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 10746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6045,
+								6045
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1728.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "computer.html",
+					"settings":
+					{
+						"buffer_size": 14287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6153,
+								6153
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "monitor.html",
+					"settings":
+					{
+						"buffer_size": 14287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6127,
+								6127
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "gettingready.html",
+					"settings":
+					{
+						"buffer_size": 8605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6163,
+								6163
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1728.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "reps.html",
+					"settings":
+					{
+						"buffer_size": 9989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6148,
+								6148
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "software.html",
+					"settings":
+					{
+						"buffer_size": 8589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6154,
+								6152
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "super.html",
+					"settings":
+					{
+						"buffer_size": 10025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6155,
+								6153
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1836.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "delivery.html",
+					"settings":
+					{
+						"buffer_size": 12106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6121,
+								6121
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 81.0
+	},
+	"output.sftp":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 258.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"wor",
+				"sass/_wordpress.scss"
+			],
+			[
+				"ie",
+				"sass/_oldie.scss"
+			],
+			[
+				"find",
+				"findstaff.html"
+			],
+			[
+				"lay",
+				"sass/_layout.scss"
+			],
+			[
+				"uni",
+				"sass/_uniform.scss"
+			],
+			[
+				"la",
+				"sass/_layout.scss"
+			],
+			[
+				"wea",
+				"sass/_weather.scss"
+			],
+			[
+				"nav",
+				"sass/_nav.scss"
+			],
+			[
+				"oldi",
+				"sass/_oldie.scss"
+			],
+			[
+				"un",
+				"sass/_uniform.scss"
+			],
+			[
+				"we",
+				"sass/_weather.scss"
+			],
+			[
+				"student",
+				"htdocs/navigation/nav-student.shtml"
+			],
+			[
+				"sty",
+				"sass/style.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/work/bmp/bmp.sublime-project"
+			]
+		],
+		"width": 767.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true
+}
