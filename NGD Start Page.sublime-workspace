@@ -32,75 +32,11 @@
 	"buffers":
 	[
 		{
-			"file": "help/index.html",
+			"file": "policies/index.html",
 			"settings":
 			{
-				"buffer_size": 9728,
+				"buffer_size": 8571,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "reps.html",
-			"settings":
-			{
-				"buffer_size": 9994,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "software.html",
-			"settings":
-			{
-				"buffer_size": 8599,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "super.html",
-			"settings":
-			{
-				"buffer_size": 10030,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 10671,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "monitor.html",
-			"settings":
-			{
-				"buffer_size": 9276,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "computer.html",
-			"settings":
-			{
-				"buffer_size": 13778,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "delivery.html",
-			"settings":
-			{
-				"buffer_size": 12111,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "gettingready.html",
-			"settings":
-			{
-				"buffer_size": 8610,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -176,31 +112,34 @@
 	},
 	"file_history":
 	[
+		"/I/startpage/help/findstaff.html",
+		"/I/startpage/help/helpdesk.html",
+		"/I/startpage/help/index.html",
+		"/I/startpage/help/installing.html",
+		"/I/startpage/help/monitors.html",
+		"/I/startpage/help/office.html",
+		"/I/startpage/help/virtual.html",
+		"/I/startpage/help/windows.html",
+		"/I/startpage/gettingready.html",
+		"/I/startpage/delivery.html",
+		"/I/startpage/computer.html",
+		"/I/startpage/policies/index.html",
+		"/I/startpage/NGD Start Page.sublime-workspace",
+		"/I/startpage/monitor.html",
+		"/I/startpage/index.html",
+		"/I/startpage/super.html",
+		"/I/startpage/reps.html",
+		"/I/startpage/images/findstaff.html",
+		"/I/startpage/software.html",
+		"/C/Users/friesenj/Desktop/changes",
 		"/I/startpage/js/fancybox/jquery.fancybox-1.3.4.css",
 		"/I/startpage/js/fancysettings.js",
 		"/I/startpage/sass/style.scss",
-		"/I/startpage/monitor.html",
-		"/I/startpage/help/virtual.html",
-		"/I/startpage/index.html",
-		"/I/startpage/help/index.html",
-		"/I/startpage/computer.html",
-		"/I/startpage/delivery.html",
-		"/I/startpage/software.html",
-		"/I/startpage/reps.html",
-		"/I/startpage/gettingready.html",
-		"/I/startpage/help/office.html",
-		"/I/startpage/help/windows.html",
-		"/I/startpage/help/installing.html",
-		"/I/startpage/help/helpdesk.html",
-		"/I/startpage/help/monitors.html",
-		"/I/startpage/super.html",
-		"/I/startpage/help/findstaff.html",
 		"/I/startpage/sass/_print.scss",
 		"/I/startpage/style.css",
 		"/I/startpage/startpage.sublime-project",
 		"/I/startpage/js/weathersettings.js",
 		"/H/SHARED/Web 3.0/joel/library.html",
-		"/I/startpage/policies/index.html",
 		"/I/startpage/monitors.html",
 		"/I/startpage/windows.html",
 		"/I/startpage/installing.html",
@@ -300,10 +239,7 @@
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
-		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/index.html",
-		"/C/work/saanich/htdocs/discover/artsheritagearc/index.html",
-		"/C/work/saanich/htdocs/navigation/nav-discover.shtml",
-		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/welcome.html"
+		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/index.html"
 	],
 	"find":
 	{
@@ -311,9 +247,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
+			"I:\\startpage",
 			"I:\\startpage\\NGD Start Page.sublime-project,I:\\startpage\\NGD Start Page.sublime-workspace,I:\\startpage\\computer.html,I:\\startpage\\config.rb,I:\\startpage\\delivery.html,I:\\startpage\\gettingready.html,I:\\startpage\\index.html,I:\\startpage\\monitor.html,I:\\startpage\\oldie.css,I:\\startpage\\reps.html,I:\\startpage\\software.html,I:\\startpage\\style.css,I:\\startpage\\super.html",
 			"I:\\startpage\\sass",
 			"I:\\startpage",
@@ -327,6 +264,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"--",
+			"\\",
+			"htdocs",
+			"index .*",
+			"@@ .*",
+			">Policies and documents<",
+			">NGD Help<",
 			"\"helpdesk.html\"",
 			"24",
 			"fa-keyboard",
@@ -448,9 +392,14 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"~~",
+			"",
+			"---Snip!---",
+			">Download Documents<",
+			">Help &amp; Training<",
 			"\"help/helpdesk.html\"",
 			"fa-keyboard-o",
 			"computer.html",
@@ -475,266 +424,29 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "help/index.html",
+					"file": "policies/index.html",
 					"settings":
 					{
-						"buffer_size": 9728,
+						"buffer_size": 8571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8964,
-								8964
+								2675,
+								2675
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
 							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2268.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "reps.html",
-					"settings":
-					{
-						"buffer_size": 9994,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7617,
-								7617
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2376.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "software.html",
-					"settings":
-					{
-						"buffer_size": 8599,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 810.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "super.html",
-					"settings":
-					{
-						"buffer_size": 10030,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1234,
-								1234
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 10671,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10450,
-								10450
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 551.0,
-						"translation.y": 2970.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "monitor.html",
-					"settings":
-					{
-						"buffer_size": 9276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "computer.html",
-					"settings":
-					{
-						"buffer_size": 13778,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "delivery.html",
-					"settings":
-					{
-						"buffer_size": 12111,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "gettingready.html",
-					"settings":
-					{
-						"buffer_size": 8610,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								567,
-								567
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
