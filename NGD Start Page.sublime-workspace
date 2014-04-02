@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"doc",
+				"docx"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -31,21 +39,17 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "policies/index.html",
-			"settings":
-			{
-				"buffer_size": 8571,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
 			[
 				"sass",
 				"SassBeautify"
@@ -60,10 +64,6 @@
 			],
 			[
 				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: in",
 				"Package Control: Install Package"
 			],
 			[
@@ -95,7 +95,7 @@
 				"Package Control: Disable Package"
 			]
 		],
-		"width": 424.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -112,29 +112,42 @@
 	},
 	"file_history":
 	[
-		"/I/startpage/help/findstaff.html",
-		"/I/startpage/help/helpdesk.html",
-		"/I/startpage/help/index.html",
-		"/I/startpage/help/installing.html",
-		"/I/startpage/help/monitors.html",
-		"/I/startpage/help/office.html",
-		"/I/startpage/help/virtual.html",
-		"/I/startpage/help/windows.html",
-		"/I/startpage/gettingready.html",
-		"/I/startpage/delivery.html",
+		"/C/Users/friesenj/Dropbox/PROV.css",
+		"/C/Users/friesenj/Dropbox/pyongyang.css",
+		"/C/Users/friesenj/Dropbox/victoria.css",
+		"/I/startpage/.gitattributes",
 		"/I/startpage/computer.html",
-		"/I/startpage/policies/index.html",
-		"/I/startpage/NGD Start Page.sublime-workspace",
-		"/I/startpage/monitor.html",
+		"/I/startpage/.gitignore",
+		"/C/Users/friesenj/Dropbox/.gitignore",
+		"/I/ecards/index.html",
+		"/I/startpage/sass/style.scss",
 		"/I/startpage/index.html",
+		"/I/startpage/sass/_oldie.scss",
+		"/I/startpage/policies/index.html",
+		"/I/startpage/delivery.html",
+		"/I/startpage/gettingready.html",
 		"/I/startpage/super.html",
-		"/I/startpage/reps.html",
-		"/I/startpage/images/findstaff.html",
 		"/I/startpage/software.html",
+		"/I/startpage/reps.html",
+		"/I/startpage/monitor.html",
+		"/I/startpage/help/windows.html",
+		"/I/startpage/help/office.html",
+		"/I/startpage/help/monitors.html",
+		"/I/startpage/help/installing.html",
+		"/I/startpage/help/index.html",
+		"/I/startpage/help/helpdesk.html",
+		"/I/startpage/help/findstaff.html",
+		"/I/startpage/sass/_uniform.scss",
+		"/I/startpage/help/virtual.html",
+		"/I/startpage/sass/_jquery.fancybox-1.3.4.scss",
+		"/I/ecards/index.htm",
+		"/I/startpage/sass/_nav.scss",
+		"/I/startpage/sass/_layout.scss",
+		"/I/startpage/NGD Start Page.sublime-workspace",
+		"/I/startpage/images/findstaff.html",
 		"/C/Users/friesenj/Desktop/changes",
 		"/I/startpage/js/fancybox/jquery.fancybox-1.3.4.css",
 		"/I/startpage/js/fancysettings.js",
-		"/I/startpage/sass/style.scss",
 		"/I/startpage/sass/_print.scss",
 		"/I/startpage/style.css",
 		"/I/startpage/startpage.sublime-project",
@@ -159,18 +172,14 @@
 		"/C/Users/friesenj/Desktop/saturday",
 		"/C/Users/friesenj/Desktop/friday",
 		"/I/startpage/sass/_weather.scss",
-		"/I/startpage/sass/_nav.scss",
 		"/H/SHARED/Web 3.0/How to run a web project/index.html",
 		"/H/SHARED/Web 3.0/How to run a web project/helpfullinks.html",
 		"/C/work/2013  analytics/pages2013.html",
 		"/I/startpage/sass/_wordpress.scss",
-		"/I/startpage/sass/_uniform.scss",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/SassBeautify.sublime-settings",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SassBeautify/SassBeautify.sublime-settings",
-		"/I/startpage/sass/_oldie.scss",
 		"/C/Users/friesenj/Desktop/jquery.fancybox-1.3.4.pack.js",
 		"/I/startpage/js/bgfade.js",
-		"/I/startpage/sass/_layout.scss",
 		"/I/startpage/template.html",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
@@ -230,16 +239,7 @@
 		"/D/htdocs/index.html",
 		"/C/Users/friesenj/Desktop/2007/index.html",
 		"/C/Users/friesenj/Desktop/Saanich Online/index.html",
-		"/C/work/saanich/htdocs/services/gis/index.html",
-		"/C/work/saanich/htdocs/services/gis/details.html",
-		"/C/work/saanich/htdocs/navigation/nav-student.shtml",
-		"/C/work/saanich/sass/style.scss",
-		"/C/work/saanich/htdocs/images/1990-028-018.jpg",
-		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default (Windows).sublime-keymap",
-		"/C/Users/friesenj/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
-		"/C/work/saanich/htdocs/discover/artsheritagearc/saanicharchives/index.html"
+		"/C/work/saanich/htdocs/services/gis/index.html"
 	],
 	"find":
 	{
@@ -250,6 +250,9 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"I:\\startpage\\computer.html,I:\\startpage\\delivery.html,I:\\startpage\\gettingready.html,I:\\startpage\\help\\findstaff.html,I:\\startpage\\help\\helpdesk.html,I:\\startpage\\help\\index.html,I:\\startpage\\help\\installing.html,I:\\startpage\\help\\monitors.html,I:\\startpage\\help\\office.html,I:\\startpage\\help\\virtual.html,I:\\startpage\\help\\windows.html,I:\\startpage\\index.html,I:\\startpage\\monitor.html,I:\\startpage\\policies\\index.html,I:\\startpage\\reps.html,I:\\startpage\\software.html,I:\\startpage\\super.html",
+			"I:\\startpage\\help\\findstaff.html,I:\\startpage\\help\\helpdesk.html,I:\\startpage\\help\\index.html,I:\\startpage\\help\\installing.html,I:\\startpage\\help\\monitors.html,I:\\startpage\\help\\office.html,I:\\startpage\\help\\virtual.html,I:\\startpage\\help\\windows.html,I:\\startpage\\policies\\index.html",
+			"I:\\startpage\\computer.html,I:\\startpage\\delivery.html,I:\\startpage\\gettingready.html,I:\\startpage\\index.html,I:\\startpage\\monitor.html,I:\\startpage\\reps.html,I:\\startpage\\software.html,I:\\startpage\\super.html",
 			"I:\\startpage",
 			"I:\\startpage\\NGD Start Page.sublime-project,I:\\startpage\\NGD Start Page.sublime-workspace,I:\\startpage\\computer.html,I:\\startpage\\config.rb,I:\\startpage\\delivery.html,I:\\startpage\\gettingready.html,I:\\startpage\\index.html,I:\\startpage\\monitor.html,I:\\startpage\\oldie.css,I:\\startpage\\reps.html,I:\\startpage\\software.html,I:\\startpage\\style.css,I:\\startpage\\super.html",
 			"I:\\startpage\\sass",
@@ -264,6 +267,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\",
+			"htdocs",
+			"			<p>copyright 2014</p>\n",
+			"/fancybox/jquery.fancybox-1.3.4.css",
+			"<link rel=\"stylesheet\" href=\"js/fancybox/jquery.fancybox-1.3.4.css\"  type='text/css'>\n	",
+			"<link rel=\"stylesheet\" href=\"//elink/startpage/js/fancybox/jquery.fancybox-1.3.4.css\"  type='text/css'>\n	",
+			"<li><a href=\"mailto:Alex.Cheung@saanich.ca\">Alex Cheung</a>IT Helpdesk Technician</li>	",
+			"nobg",
+			"pdf",
+			"	<div class=\"footer main\">\n		<div class=\"container\">\n			<div class=\"foottext\">\n\n			</div>\n		</div>\n	</div>\n",
+			"<!DOCTYPE html>\n<!--[if lt IE 7 ]><html class=\"ie ie6\" lang=\"en\"> <![endif]-->\n<!--[if IE 7 ]><html class=\"ie ie7\" lang=\"en\"> <![endif]-->\n<!--[if IE 8 ]><html class=\"ie ie8\" lang=\"en\"> <![endif]-->\n<!--[if (gte IE 9)|!(IE)]><!-->\n<html lang=\"en\">\n<!--<![endif]-->\n\n<head>",
+			"1",
+			"//",
+			"///",
 			"--",
 			"\\",
 			"htdocs",
@@ -377,24 +394,19 @@
 			"?",
 			"\"/",
 			"h2",
-			"Content",
-			"content",
-			"div",
-			"upload",
-			"ctrl+shift+alt+d",
-			"ctrl+shift+d",
-			"ctrl+d",
-			"saanich.ca/",
-			"1911",
-			"nav",
-			"\n        <li><a href=\"#\">item</a></li>\n        <li><a href=\"#\">item<"
+			"Content"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"",
+			"<li><a href=\"mailto:Alex.Cheung@saanich.ca\">Alex Cheung</a>IT Helpdesk <br />Technician</li>	\n",
+			"	<div class=\"footer main container\">\n		<div class=\"foottext\">\n			<p>District of Saanich - 770 Vernon Ave Victoria, BC, Canada V8X 2W7 Tel: 250-475-1775 (8:30am - 4:30pm)</p>\n			<p>copyright 2014</p>\n		</div>\n	</div>\n",
+			"<!--[if HTML5]><![endif]-->\n<!doctype html>\n<!--[if lt IE 7 ]><html class=\"ie ie6\" lang=\"en\"> <![endif]-->\n<!--[if IE 7 ]><html class=\"ie ie7\" lang=\"en\"> <![endif]-->\n<!--[if IE 8 ]><html class=\"ie ie8\" lang=\"en\"> <![endif]-->\n<!--[if (gte IE 9)|!(IE)]><!-->\n<html lang=\"en\">\n<!--<![endif]-->\n<head>\n<!--[if !HTML5]>\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n<![endif]-->",
+			"//",
 			"~~",
 			"",
 			"---Snip!---",
@@ -424,39 +436,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "policies/index.html",
-					"settings":
-					{
-						"buffer_size": 8571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2675,
-								2675
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -493,7 +474,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 81.0
+		"height": 79.0
 	},
 	"output.sftp":
 	{
@@ -509,6 +490,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"_",
+				"sass/_jquery.fancybox-1.3.4.scss"
+			],
 			[
 				"wor",
 				"sass/_wordpress.scss"

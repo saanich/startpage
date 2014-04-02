@@ -2,7 +2,7 @@
 Theme Name: Saanich Theme
 Theme URI: https://saanich.ca/
 Description: District of Saanich
-Version: 1.5
+Version: 1.6
 Author: Joel Friesen 
 Author URI: http://saanich.ca/
 */
@@ -18,7 +18,7 @@ $googlefont1: "Muli", sans-serif;
 $googlefont2: "Droid", serif;
 $number_of_columns: 4;
 $number_of_nav_items: 3;
-$width_of_nav_in_columns: 3;
+$width_of_nav_in_columns: 2.93;
 $nav_bg: #4c9cd2;
 $nav_color: white;
 $nav_hover_bg: lighten($lightcolor, 10%);
@@ -274,8 +274,10 @@ h2.sitetitle {
 
 .contentarea h1.pagetitle,
 .contentarea h2,
-.contentarea h3,
-.contentarea h4 {
+.contentarea h3, 
+.textwidget h3,
+.contentarea h4,
+.textwidget h4{
 	background: none;
 	color: $darkcolor;
 	font-family: $googlefont1;
@@ -292,7 +294,9 @@ h2.sitetitle {
 }
 
 .contentarea h3,
-.contentarea h4 {
+.textwidget h3,
+.contentarea h4,
+.textwidget h4 {
 	font-size: 1.2em;
 	color: $splashcolor;
 	border-width: 0;
@@ -303,7 +307,8 @@ h2.sitetitle {
 	}
 }
 
-.contentarea h4 {
+.contentarea h4,
+.textwidget h4 {
 	color: $darkcolor;
 	border-width: 0;
 	a {
@@ -336,7 +341,7 @@ h2.sitetitle {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	margin-top: -1.5em;
+	margin-top: -1.4em;
 }
 
 .subcol ul.nobg {
@@ -345,7 +350,7 @@ h2.sitetitle {
 
 .subcol ul.nobg li {
 	border: none;
-	margin: 0 0 0 .7em;
+	margin: 0;
 }
 
 .subcol ul li a {
@@ -385,6 +390,8 @@ h2.sitetitle {
 	background: none;
 	color: $body_link_color;
 }
+
+ul.nobullet {list-style:none}
 
 .contentarea .faq-catname {}
 
@@ -673,4 +680,13 @@ h2.sitetitle {
 
 .thumblist ul li a {
 	padding: 0;
+}
+
+.footer{background:$lightcolor;}
+.foottext {
+	padding:1em;
+	font-size: .8em;
+	text-align:center;
+	color:#FFF;
+
 }
